@@ -1,5 +1,102 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../public/assets";
 
+
+export const services = [
+  {
+    id: "service-1",
+    icon: star,
+    title: "Doctor Appointment",
+    content:
+      "To schedule an appointment, you can either call our dedicated booking line",
+  },
+  {
+    id: "service-2",
+    icon: star,
+    title: "Senior Transportation",
+    content:
+      "To schedule an appointment, you can either call our dedicated booking line",
+  },
+  {
+    id: "service-3",
+    icon: star,
+    title: "Family Gatherings",
+    content:
+      "To schedule an appointment, you can either call our dedicated booking line",
+  },
+  
+    {
+      id: "service-4",
+      icon: star,
+      title: "Airport  Transportation",
+      content:
+        "To schedule an appointment, you can either call our dedicated booking line",
+    },
+    {
+      id: "service-5",
+      icon: star,
+      title: "Pharmacy Trips",
+      content:
+        "To schedule an appointment, you can either call our dedicated booking line",
+    },
+    {
+      id: "service-6",
+      icon: star,
+      title: "Family Accompaniment",
+      content:
+        "To schedule an appointment, you can either call our dedicated booking line",
+    },
+    {
+      id: "service-7",
+      icon: star,
+      title: "Assistive Devices",
+      content:
+        "To schedule an appointment, you can either call our dedicated booking line",
+    },
+    {
+      id: "service-5",
+      icon: star,
+      title: "Community Shuttle Services",
+      content:
+        "To schedule an appointment, you can either call our dedicated booking line",
+    },
+];
+
+export const CoreValues = [
+{
+  id: "core-1",
+  icon: star,
+  title: "Empathy and Compassion ",
+  content:
+    "We prioritize empathy and compassion in all our interactions. We understand the unique needs of our passengers and their families, and we are committed to providing caring, patient-centered transportation solutions that respect their dignity and well-being.",
+},
+{
+  id: "core-2",
+  icon: star,
+  title: "Accessibility and Inclusivity",
+  content:
+    " We are dedicated to creating an inclusive environment for all individuals, regardless of their abilities or medical conditions.",
+},
+{
+  id: "feature-1",
+  icon: star,
+  title: "Reliability and Safety",
+  content:
+    "Safety is our utmost priority. We uphold the highest standards of safety in our vehicles, equipment, and operations.",
+},
+{
+  id: "feature-1",
+  icon: star,
+  title: "Community Engagement",
+  content:
+    " We believe in building strong connections within the communities we serve. We actively engage with local organizations, healthcare facilities, and advocacy groups to understand the evolving needs of our passengers.",
+},
+
+
+
+
+
+];
+
 export const stats = [
     {
       id: "stats-1",

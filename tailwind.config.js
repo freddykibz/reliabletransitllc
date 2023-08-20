@@ -35,6 +35,11 @@ module.exports = {
          'gallery-dark' : '#C8C5C8',
          'gallery-dark-shade':"#A39FA3"
       },
+      backgroundImage: {
+        'pattern': "url('/pattern.png')",
+        'hero-bg': "url('/assets/hero-bg.png')",
+        'service-bg':"url('/assets/service-bg.jpg')"
+      }
     },
   },
   plugins: [],

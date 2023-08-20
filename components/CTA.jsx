@@ -2,7 +2,7 @@ import Button from "./Button"
 
 const CTA = () => {
   return (
-    <section className="flex-between sm:my-16 my-6 sm:px-6 sm:py-12 py-4 sm:flex-row flex-col bg-picton-blue rounded-[20px] box-shadow">
+    <section className="flex-center marginY padding sm:flex-row  bg-picton-blue-dark   flex-col rounded-[20px]vbox-shadow">
       <div className="flex flex-col">
         <h2 className="font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">Enquire Anytime!</h2>
         <p className="font-normal text-dimWhite text-[18px] leading-[30.8px]  mt-5">Experience Convenience and Care with Our Paratransit/NEMTS Services! Book Your Ride Today and Enjoy Safe, Reliable, and Accessible Transportation for All Your Needs.</p>

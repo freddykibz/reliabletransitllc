@@ -1,27 +1,38 @@
-import React from 'react'
-import Image from 'next/image';
-import heroBg from '../public/assets/herobg.jpg' 
+'use client'
 
-const HeroBanner = () => {
+import Image from "next/image"
+import CustomButton from "./CustomButton";
+
+const Hero = () => {
+  const handleSCroll = () => {
+
+  }
   return (
-<section className='w-full'>
-  <div className='h-96 w-full relative'>
-  <Image
-    src={heroBg}
-    width={1400}
-    height={740}
-    alt='hero-bg'
-    className='hero_img '
-  />
-    <div className="flex flex-col justify-between items-center w-full">
-      <h1 className='head_text text-center'>Empowering Mobility Independence</h1>
-      <br/>
-      <h3 className='head_text_sub'>Your Ride Your Schedule</h3>
+    <div className="hero">
+      <div className="flex-1 pt-36 padding-x">
+         <h1 className="hero__title">
+      Empowering Mobility Independence
+         </h1>
+         <p className="hero__subtitle">
+          Your Ride Your Schedule
+         </p>
+         <CustomButton
+           title="Book A Ride"
+           containerStyles="bg-picton-blue text-white rounded-full mt-10"
+           handleClick={handleSCroll}
+         />
       </div>
-  </div>
-
-</section>
+      <div className="hero__image-container">
+        <div  className="hero__image">
+            <Image
+             src="/assets/hero.png" alt="hero" fill className="object-contain" 
+            />
+        </div>
+        
+        <div className="hero__image-overlay"></div>
+      </div>
+    </div>
   )
 }
 
-export default HeroBanner;
+export default Hero;
