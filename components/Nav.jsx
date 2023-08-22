@@ -17,7 +17,7 @@ const Nav = () => {
       /> 
     </Link>
     {/* Desktop menu */}
-    <div className='sm:flex hidden'>
+    <div className='sm:flex hidden flex-center gap-5 '>
       <div className='flex gap-3 md:gap-5 text-picton-blue'>
         <Link href="/"> 
           HOME
@@ -34,6 +34,18 @@ const Nav = () => {
         <Link href="/faqs"> 
           FAQS
         </Link>
+      </div>
+      <Link href='/book-appointment'>
+      <button
+       type='button'
+       className='bg-deluge py-4  text-white px-6 px-'>Book Appointment
+       </button>
+      </Link>
+     
+
+{/* Mobile */}
+      <div className='sm:hidden'>
+
       </div>
 
     </div>

@@ -139,24 +139,24 @@ export const stats = [
       title: "Useful Links",
       links: [
         {
-          name: "Content",
-          link: "https://www.hoobank.com/content/",
+          name: "Book Appointment",
+          link: "/book-appointment",
         },
         {
-          name: "How it Works",
-          link: "https://www.hoobank.com/how-it-works/",
+          name: "Our Services",
+          link: "/services",
         },
         {
-          name: "Create",
-          link: "https://www.hoobank.com/create/",
+          name: "About Us",
+          link: "/about-us",
         },
         {
-          name: "Explore",
-          link: "https://www.hoobank.com/explore/",
+          name: "Contact Us",
+          link: "/contact",
         },
         {
           name: "Terms & Services",
-          link: "https://www.hoobank.com/terms-and-services/",
+          link: "terms",
         },
       ],
     },
@@ -164,12 +164,12 @@ export const stats = [
       title: "Community",
       links: [
         {
-          name: "Help Center",
-          link: "https://www.hoobank.com/help-center/",
+          name: "Privacy Policy",
+          link: "/privacy",
         },
         {
-          name: "Partners",
-          link: "https://www.hoobank.com/partners/",
+          name: "FAQs",
+          link: "/faqs",
         },
         {
           name: "Suggestions",
@@ -182,19 +182,6 @@ export const stats = [
         {
           name: "Newsletters",
           link: "https://www.hoobank.com/newsletters/",
-        },
-      ],
-    },
-    {
-      title: "Partner",
-      links: [
-        {
-          name: "Our Partner",
-          link: "https://www.hoobank.com/our-partner/",
-        },
-        {
-          name: "Become a Partner",
-          link: "https://www.hoobank.com/become-a-partner/",
         },
       ],
     },
