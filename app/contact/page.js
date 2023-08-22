@@ -107,6 +107,8 @@ const ContactUs = () => {
               </label>
             <textarea 
                className='border-2 border-gray-500 p-2 rounded-md w-3/4 focus:border-picton-blue focus:ring-picton-blue'
+               type="text"
+               name="message"
                value={formik.values.message}
                onChange={formik.handleChange}
                placeholder="Write Your Message" 
