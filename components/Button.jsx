@@ -4,7 +4,7 @@ const Button = () => {
   return (
   
     <button type='button' className='cta_button mt-24 rounded '>
-        Book Appointment
+        BOOK APPOINTMENT
     </button>
   )
 }

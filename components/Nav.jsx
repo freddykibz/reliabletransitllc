@@ -38,7 +38,7 @@ const Nav = () => {
       <Link href='/book-appointment'>
       <button
        type='button'
-       className='bg-deluge py-4  text-white px-6 px-'>Book Appointment
+       className='bg-deluge py-4  text-white px-6 px-'>BOOK APPOINTMENT
        </button>
       </Link>
      
