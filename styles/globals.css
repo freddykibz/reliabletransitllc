@@ -10,6 +10,22 @@
 
 /* Start General styles */
 
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+  scroll-behavior: smooth
+}
+
+/*Components Container*/
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+
 /* Spacing */
 .max-width {
   @apply max-w-[1440px] mx-auto;
@@ -53,6 +69,9 @@
 }
 .paragraph {
   @apply  font-normal text-black text-[18px] leading-[30.8px]
+}
+.info-text {
+  @apply font-satoshi text-slate-gray text-lg leading-7;
 }
 
 
@@ -295,7 +314,9 @@
 .service-card {
   box-shadow: 0px 10px 22px -3px #0590D1;
 }
-
+.core-card {
+  @apply  w-[340px] object-contain;
+}
 
 
 /* PromptCard Component */

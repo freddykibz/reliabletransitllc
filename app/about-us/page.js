@@ -1,14 +1,22 @@
 import AboutUsBanner from '@components/AboutBanner';
 import AboutHeader from '@components/AboutUsHeader';
-import SectionHeader from '@components/SectionHeader';
+import AboutUsInfo from '@sections/AboutUs';
+import CTA from '@components/CTA';
+import CoreValues from '@components/CoreValues';
 import React from 'react'
+import Mission from '@sections/Mission';
 
 const AboutUs = () => {
-  const title = 'About Us'
   return (
-    <div className='flex  flex-col flex-center w-full'>
+    <div className='w-full'>
       <AboutUsBanner/>
       <AboutHeader/>
+      <AboutUsInfo/>
+      <h2 className='heading2 text-center'>Mission</h2>
+      <Mission/>
+      <h2 className='heading2 text-center'>Core Values</h2>
+      <CoreValues/>
+      <CTA/>
     </div>
   )
 }

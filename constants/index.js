@@ -61,7 +61,7 @@ export const services = [
     },
 ];
 
-export const CoreValues = [
+export const coreValues = [
 {
   id: "core-1",
   icon: star,
@@ -77,23 +77,19 @@ export const CoreValues = [
     " We are dedicated to creating an inclusive environment for all individuals, regardless of their abilities or medical conditions.",
 },
 {
-  id: "feature-1",
+  id: "core-3",
   icon: star,
   title: "Reliability and Safety",
   content:
     "Safety is our utmost priority. We uphold the highest standards of safety in our vehicles, equipment, and operations.",
 },
 {
-  id: "feature-1",
+  id: "core-4",
   icon: star,
   title: "Community Engagement",
   content:
     " We believe in building strong connections within the communities we serve. We actively engage with local organizations, healthcare facilities, and advocacy groups to understand the evolving needs of our passengers.",
 },
-
-
-
-
 
 ];
 

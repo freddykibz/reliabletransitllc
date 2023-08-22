@@ -19,6 +19,17 @@ module.exports = {
         lg: "1200px",
         xl: "1700px",
       },
+      fontSize: {
+        xs: ['12px', '16px'],
+        sm: ['14px', '20px'],
+        base: ['16px', '19.5px'],
+        lg: ['18px', '21.94px'],
+        xl: ['20px', '24.38px'],
+        '2xl': ['24px', '29.26px'],
+        '3xl': ['28px', '50px'],
+        '4xl': ['48px', '58px'],
+        '8xl': ['96px', '106px']
+      },
       colors: {
         'picton-blue': '#29B2EC',
         'picton-blue-light':'#61D2FC',
@@ -33,7 +44,8 @@ module.exports = {
          'gallery': '#EEECEE',
          'gallery-light': '#ffffff',
          'gallery-dark' : '#C8C5C8',
-         'gallery-dark-shade':"#A39FA3"
+         'gallery-dark-shade':"#A39FA3",
+         "slate-gray": "#6D6D6D",
       },
       backgroundImage: {
         'pattern': "url('/pattern.png')",
@@ -42,5 +54,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 }

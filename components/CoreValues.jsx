@@ -1,8 +1,16 @@
-import React from 'react'
+import CoreValueCard from "./CoreValueCard"
+import { coreValues } from "@constants"
 
 const CoreValues = () => {
   return (
-    <div>CoreValues</div>
+    <section>
+    <div className='flex flex-wrap gap-5 flex-center'>
+        {coreValues.map((coreValue,index)=> (
+    <CoreValueCard key={coreValue.id} {...coreValue} index={index}/>
+        ))}
+    </div>
+</section>
+
   )
 }
 
