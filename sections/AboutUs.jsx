@@ -10,8 +10,8 @@ const AboutUsInfo = () => {
   return (
     <section className='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'>
        <div className='flex flex-1 flex-col'>
-         <h2 className='font-satoshi capitalize text-4xl lg:max-w-lg font-bold'>
-          About US
+         <h2 className='font-satoshi text-deluge capitalize text-6xl lg:max-w-lg font-bold'>
+         WHO WE ARE
          </h2>
          <p className='mt-4 lg:max-w-lg info-text'>
          At Reliable Transit LLC, we are more than just a transportation company – 

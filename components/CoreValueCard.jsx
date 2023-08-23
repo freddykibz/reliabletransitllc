@@ -3,7 +3,7 @@ import { coreValues } from "../constants"
 
 const CoreValueCard = ({ icon, title, content, index }) => {
   return (
-    <div className={`flex  bg-deluge flex-row p-6 rounded-[20px] ${index !== coreValues.length - 1 ? "mb-6" : "mb-0"} core-card`}>
+    <div className={`flex flex-row p-6 rounded-[20px] ${index !== coreValues.length - 1 ? "mb-6" : "mb-0"} core-card`}>
     <div className={`w-[64px] h-[64px] rounded-full flex-center bg-dimBlue`}>
       <Image 
       src={icon} 

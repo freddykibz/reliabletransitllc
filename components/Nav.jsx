@@ -41,14 +41,7 @@ const Nav = () => {
        className='bg-deluge py-4  text-white px-6 px-'>BOOK APPOINTMENT
        </button>
       </Link>
-     
-
-{/* Mobile */}
-      <div className='sm:hidden'>
-
       </div>
-
-    </div>
    </nav>
   )
 }

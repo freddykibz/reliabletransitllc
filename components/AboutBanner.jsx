@@ -9,11 +9,11 @@ const AboutUsBanner = () => {
   
     return (
     
-    <div className='banner bg-service-bg w-full bg-deluge-light'>
+    <div className='banner bg-cover w-full bg-contact-bg bg-deluge-light'>
         <div className="flex flex-col py-6 px-4 items-start justify-center">
         <h1 className='banner__title'>
-        Customized Rides for Your Unique Needs
-        <br/> Discover Our Services
+        "We Are Dedicated To"
+        <br className="text-orange-400"/> Safe Journeys
         </h1>
         <p className="banner__subtitle ">
           Enabling Seamless Journeys <br/> Our Commitment to Accessible and Inclusive Paratransit Solutions  

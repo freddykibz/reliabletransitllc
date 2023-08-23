@@ -50,7 +50,8 @@ module.exports = {
       backgroundImage: {
         'pattern': "url('/pattern.png')",
         'hero-bg': "url('/assets/hero-bg.png')",
-        'service-bg':"url('/assets/service-bg.jpg')"
+        'service-bg':"url('/assets/service-bg.jpg')",
+        'contact-bg':"url('/assets/contact.jpg')"
       }
     },
   },

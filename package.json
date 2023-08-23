@@ -2,13 +2,12 @@
   "name": "reliabletransit",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://reliabletransit.org",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
- 
   "dependencies": {
     "@tailwindcss/forms": "^0.5.4",
     "autoprefixer": "10.4.14",
@@ -17,6 +16,7 @@
     "next": "13.4.13",
     "postcss": "8.4.27",
     "react": "18.2.0",
+    "react-date-picker": "^10.5.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
     "tailwindcss": "3.3.3",

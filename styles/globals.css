@@ -312,10 +312,17 @@
 
 /**/
 .service-card {
-  box-shadow: 0px 10px 22px -3px #0590D1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:8px;
+  flex-direction: column;
+  width: 350px;
+  height: 260px;
+
 }
 .core-card {
-  @apply  w-[340px] object-contain;
+  @apply  w-[340px] flex flex-col flex-center;
 }
 
 

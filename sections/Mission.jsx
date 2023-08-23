@@ -3,9 +3,9 @@ import React from 'react'
 const Mission = () => {
   return (
     <section className='bg-picton-blue padding-y padding-x rounded-[20px]'>
-        <div className='flex flex-col'>
-            <h2 className=" heading2 text-center text-white">Our mission</h2><br/>
-            <p className='paragraph mb-10 text-white'>
+        <div className='flex flex-center  flex-col'>
+            <h2 className="heading2 text-center text-white">Our mission</h2><br/>
+            <p className='lg:max-w-lg text-white items-start text-xl justify-center leading-[2.5] '>
             At Reliable Transit LLC, our mission is to empower individuals with disabilities,
             seniors, and those in need of specialized medical transportation by providing safe, 
             accessible, and compassionate services. We are dedicated to fostering independence,

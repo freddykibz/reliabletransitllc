@@ -14,7 +14,7 @@ const ServiceCard = ({ icon, title, content, index }) => {
             />
         </div>
         <div className="flex flex-1  flex-col ml-3">
-            <h4 className="font-semibold text-picton-blue text-[18px] leading-[23px] mb-1">
+            <h4 className="font-semibold text-center text-picton-blue text-[18px] leading-[23px] mb-1">
                 {title}
             </h4>
             <p className="font-normal break-normal text-gallery-dark-shade text-[16px] leading-[24px] mb-1">

@@ -8,7 +8,7 @@ import Mission from '@sections/Mission';
 
 const AboutUs = () => {
   return (
-    <div className='w-full'>
+    <div className=' flex flex-col flex-center w-full'>
       <AboutUsBanner/>
       <AboutHeader/>
       <AboutUsInfo/>

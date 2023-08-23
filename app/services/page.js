@@ -7,7 +7,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='w-full'>
+    <div className='flex-col w-full   flex-center'>
      <ServiceBanner/>
      <ServiceStatement/>
      <SectionHeader/>
