@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../public/assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone, locationpin, destination  } from "../public/assets";
 
 
 export const services = [
@@ -114,21 +114,21 @@ export const stats = [
   export const features = [
     {
       id: "feature-1",
-      icon: star,
+      icon: phone,
       title: "MAKE A CALL / BOOKING ",
       content:
         "To schedule an appointment, you can either call our dedicated booking line",
     },
     {
       id: "feature-2",
-      icon: shield,
+      icon: locationpin,
       title: "SET PICK-UP LOCATION",
       content:
         "We'll pick you up right from your location .",
     },
     {
       id: "feature-3",
-      icon: send,
+      icon: destination,
       title: "ARRIVE TO DESTINATION",
       content:
         "We ensure a smooth journey, taking you directly to your destination.",

@@ -1,8 +1,8 @@
 import "@styles/globals.css";
-import Nav from "@components/Nav";
-import Provider from '@components/Provider';
+import Nav from "@components/Navied";
 import TopBar from "@components/TopBar";
 import Footer from "@components/Footer";
+import NavBar from "@components/Nav";
 
 export const metadata = {
   title: 'Reliable Transit LLC',
@@ -13,13 +13,16 @@ const RootLayout = ({ children }) => {
   return (
    <html lang ="en">
     <body>
+   
       <div className='main'>
         {/* background */}
          <div className="gradient" />
          </div>
-        <main className="app">
-          <TopBar/>
-          <Nav/>
+         
+        <main className="app ">
+        <TopBar/>
+        <NavBar/>
+         {/* <Nav/>        */}
           {children}
           <Footer/>
         </main>
