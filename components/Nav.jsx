@@ -7,8 +7,8 @@ import { useState } from 'react';
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div>
-      <nav className="w-full fixed bg-picton-blue top-12 left-0 right-0 z-10">
+    <div className='w-full flex-row mt-0'>
+      <nav className="w-full  bg-picton-blue  z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">

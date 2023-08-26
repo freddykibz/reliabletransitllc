@@ -18,13 +18,6 @@
 }
 
 /*Components Container*/
-@layer components {
-  .max-container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-}
-
 
 /* Spacing */
 .max-width {
@@ -80,7 +73,7 @@
   @apply font-semibold text-picton-blue  xs:text-[48px] text-[40px] sm:text-[36px] leading-[48px]  mb-1
  }
  .desc_paragraphs {
-  @apply mt-5 font-normal text-[68px]  text-gray-600 sm:text-xl leading-[60.8px]; 
+  @apply mt-2 md:mt-5  font-normal md:font-medium text-[24px] md:text-[48px]  text-gray-500 sm:text-xl leading-[40.8px]  md:leading-[60.8px]; 
  }
  .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-picton-blue sm:text-6xl;
@@ -89,7 +82,7 @@
   @apply  text-[2.9rem] leading-none text-deluge font-extrabold font-sans text-center lg:text-5xl lg:text-left lg:leading-tight mb-5;
 }
 .hero__subtitle {
-  @apply text-[27px] text-black font-light mt-5;
+  @apply text-[27px] text-black  mt-5;
 }
 .desc_center {
   @apply mt-5 font-normal text-[28px]  text-gray-600 sm:text-[22px] leading-[30.8px] max-w-4xl;
@@ -270,13 +263,13 @@
 
 /* Banner*/
 .banner {
-  @apply flex w-full xl:flex-row  gap-5 relative z-0 max-w-[1440px] min-h-[640px]; 
+  @apply flex w-full xl:flex-row   relative z-0 max-w-[1440px] min-h-[640px]; 
 }
 .banner__title{
   @apply 2xl:text-[48px] sm:text-[48px] text-[40px] text-deluge font-extrabold;
 }
 .banner__subtitle {
-  @apply text-[27px] text-picton-blue font-light mt-5;
+  @apply text-[27px] text-picton-blue font-medium mt-5;
 }
 .banner__image-overlay {
   @apply relative xl:-top-24 xl:-right-1/2 -right-1/4 bg-service-bg bg-no-repeat -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
