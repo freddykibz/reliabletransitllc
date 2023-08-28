@@ -9,7 +9,7 @@ const Servicebanner = () => {
   
     return (
     
-    <div className='flex-center bg-deluge w-full   mr-0'>
+    <div className='flex-center bg-deluge w-full flex-col md:flex-row mr-0'>
         <div className="flex-1 flex-col py-6 px-4 items-start justify-center">
         <h1 className='md:text-4xl uppercase text-white md:font-extrabold'>
         Customized Rides for Your Unique Needs
