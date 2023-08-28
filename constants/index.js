@@ -1,10 +1,11 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone, locationpin, destination  } from "../public/assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, 
+  dropbox, send, shield, star,phone, locationpin, destination,doc  } from "../public/assets";
 
 
 export const services = [
   {
     id: "service-1",
-    icon: star,
+    icon: doc,
     title: "Doctor Appointment",
     content:
       "To schedule an appointment, you can either call our dedicated booking line",

@@ -1,5 +1,4 @@
 import "@styles/globals.css";
-import Nav from "@components/Navied";
 import TopBar from "@components/TopBar";
 import Footer from "@components/Footer";
 import NavBar from "@components/Nav";

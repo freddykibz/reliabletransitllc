@@ -9,7 +9,7 @@ const TopBar = () => {
          <h3 className="flex-1 gap-4 flex-center text-picton-blue md:font-medium md:text-xl cursor-pointer"><FaRegEnvelope size='1.5rem'/><a className="underline"  href="mailto:info@reliabletransit.org">Email:info@reliabletransit.org</a></h3>
          </div>
          <div className='flex-1'>
-          <h3 className="flex gap-4 text-picton-blue md:font-medium md:text-xl"><BiPhone size='1.5rem'/>Phone: +1(773) 383-64</h3>
+          <h3 className="flex gap-4 text-picton-blue md:font-medium md:text-xl"><BiPhone size='1.5rem'/>Phone: (312) 825-1175</h3>
           </div>
      </div>
     </div>

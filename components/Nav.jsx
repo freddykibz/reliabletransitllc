@@ -8,16 +8,16 @@ function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div className='w-full flex-row mt-0'>
-      <nav className="w-full  bg-picton-blue  z-10">
+      <nav className="w-full  bg-picton-blue    z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
               <Link href="/">
               <Image
-                  src="/assets/logo.png"
-                  width={80}
-                  height={80}
+                  src="/assets/logo_r.png"
+                  width={250}
+                  height={24}
                   alt="Reliable Transit Logo"
                   /> 
               </Link>
@@ -72,7 +72,7 @@ function NavBar() {
                 <Link href='/book-appointment' className='flex-center mt-4  md:mt-0   '>
                   <button
                   type='button'
-                  className='bg-deluge py-4    text-white rounded-full  font-semibold text-xl px-6 hover:bg-white hover:text-deluge  '>BOOK APPOINTMENT
+                  className='bg-deluge py-4    text-white rounded-full  font-semibold text-xl px-6 hover:bg-deluge-light hover:text-white  '>BOOK APPOINTMENT
                   </button>
                  </Link>
               </ul>

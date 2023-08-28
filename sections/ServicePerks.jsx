@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const ServicePerks = () => {
   return (
-    <section className="flex mt-40  gap-10 w-full">   
+    <section className="flex mt-40 flex-col md:flex-row  gap-10 w-full">   
       <div className='flex-1 flex-center'>
         <Image
           src="/assets/contact.jpg"
