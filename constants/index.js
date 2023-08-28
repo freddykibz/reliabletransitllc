@@ -1,5 +1,5 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, 
-  dropbox, send, shield, star,phone, locationpin, destination,doc  } from "../public/assets";
+  dropbox, send, shield, star,phone, locationpin, destination, doc,  } from "../public/assets";
 
 
 export const services = [
