@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="bg-heroside">
         <div  className="hero__image hero__image-container">
             <Image
-             src="/assets/van.png" alt="hero" fill className="object-contain" 
+             src="/assets/bg-heroside.png" alt="hero" fill className="object-contain" 
             />
         </div>
         

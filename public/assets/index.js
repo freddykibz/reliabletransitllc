@@ -26,7 +26,7 @@ import people03 from "./people03.png";
 import phone from "./phone.svg";
 import locationpin from "./locationpin.svg";
 import destination from "./destination.svg";
-import doc from "./doc.svg";
+
 
 export {
   airbnb,
@@ -57,5 +57,4 @@ export {
   phone,
   locationpin,
   destination,
-  doc,
 };
