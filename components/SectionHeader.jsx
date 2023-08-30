@@ -5,7 +5,7 @@ const SectionHeader = () => {
   return (
     <section>
         <div className=' mt-10  mb-10 text-center'>
-            <h1 className='heading2'>Services</h1>
+            <h1 className='heading-title uppercase text-deluge'>Services</h1>
         </div>
     </section>
   )

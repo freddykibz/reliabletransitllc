@@ -1,24 +1,24 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone, locationpin, destination,  } from "../public/assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone, locationpin, destination, doc, van,office, family,airplane,technology } from "../public/assets";
 
 
 export const services = [
   {
     id: "service-1",
-    icon: star,
+    icon: doc,
     title: "Doctor Appointment",
     content:
       "To schedule an appointment, you can either call our dedicated booking line",
   },
   {
     id: "service-2",
-    icon: star,
+    icon: van,
     title: "Senior Transportation",
     content:
       "To schedule an appointment, you can either call our dedicated booking line",
   },
   {
     id: "service-3",
-    icon: star,
+    icon: family,
     title: "Family Gatherings",
     content:
       "To schedule an appointment, you can either call our dedicated booking line",
@@ -26,39 +26,27 @@ export const services = [
   
     {
       id: "service-4",
-      icon: star,
+      icon:   airplane,
       title: "Airport  Transportation",
       content:
         "To schedule an appointment, you can either call our dedicated booking line",
     },
     {
       id: "service-5",
-      icon: star,
+      icon: office,
       title: "Pharmacy Trips",
       content:
         "To schedule an appointment, you can either call our dedicated booking line",
     },
-    {
-      id: "service-6",
-      icon: star,
-      title: "Family Accompaniment",
-      content:
-        "To schedule an appointment, you can either call our dedicated booking line",
-    },
+    
     {
       id: "service-7",
-      icon: star,
+      icon: technology,
       title: "Assistive Devices",
       content:
         "To schedule an appointment, you can either call our dedicated booking line",
     },
-    {
-      id: "service-5",
-      icon: star,
-      title: "Community Shuttle Services",
-      content:
-        "To schedule an appointment, you can either call our dedicated booking line",
-    },
+  
 ];
 
 export const coreValues = [
@@ -161,7 +149,7 @@ export const stats = [
       ],
     },
     {
-      title: "Community",
+      title: "Quick Links",
       links: [
         {
           name: "Privacy Policy",
