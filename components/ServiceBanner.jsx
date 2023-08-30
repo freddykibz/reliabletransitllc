@@ -21,12 +21,13 @@ const Servicebanner = () => {
         <div className="flex gap-8 flex-row  flex-center md:mb-20">
         <CustomButton
            title="Book A Ride"
-           containerStyles="text-white text-bold uppercase border-white border-4 rounded-full mt-10"
+           containerStyles="hidden sm:block text-white text-bold uppercase border-white border-4 rounded-full mt-10"
            handleClick={handleSCroll}
          />
          <CustomButton
            title="CALL: +(312) 825-1175"
-           containerStyles="bg-picton-blue text-white font-medium rounded-full mt-10"
+           containerStyles="bg-picton-blue text-white font-medium rounded-full mt-10 py-2 px2 text-normal"
+           className=""
            handleClick={handleSCroll}
          />
         </div>

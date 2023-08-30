@@ -12,7 +12,7 @@ const Footer = () => (
            width={120}
            height={50}
            alt="Reliable Transit Logo"
-           className='object-contain bg-gallery bg-opacity-10'
+           className='object-contain  bg-opacity-10 shadow-sm'
          />
          <p className='font-medium text-white text-[18px] leading-[30.8px]  max-w-[310px]'>Reliable paratransit and NEMTS services, ensuring seamless transportation solutions for diverse needs.</p>
        </div>
@@ -25,7 +25,7 @@ const Footer = () => (
            <ul>
             {footerLink.links.map((link) => (
                <li key={link.name}
-                className='font-normal text-white text-[20px] leading-[24px]  hover:text-picton-blue'
+                className='font-normal text-white text-[18px] leading-[24px]  hover:text-picton-blue'
                >
                 {link.name}
                </li>
@@ -40,7 +40,7 @@ const Footer = () => (
 
         <p className='text-white text-[20px] font-medium mb-4'>Email : info@reliabletransit.org</p>
         <p className='text-white text-[20px] font-medium md:mb-8'>Phone : +(312) 825-1175</p>
-        <div className="flex flex-row md:mt-0 mt-6 py-4 px-4 bg-gallery bg-opacity-2 rounded-full flex-center md:w-full  w-1/2" >
+        <div className="flex flex-row md:mt-0 mt-6 py-4 px-4 bg-gallery bg-opacity-2 rounded-full flex-center md:w-full  w-3/5" >
            {socialMedia.map((social, index)=> (
               <Image
                key={social.id}
@@ -59,7 +59,7 @@ const Footer = () => (
     <div className='w-full  bg-gallery flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-gallery   '>
        <p className='font-medium text-[18px] leading-[27px] text-center text-deluge px-4'>2023 Reliable Transit. All Rights Reserved</p>
    
-    <div className="flex flex-row md:mt-0 mt-6 py-4 px-4" >
+    <div className="flex flex-row md:mt-0 mt-6 py-4 px-4 " >
       {socialMedia.map((social, index)=> (
               <Image
                key={social.id}

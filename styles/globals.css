@@ -251,7 +251,7 @@
 
 /* Hero Component */
 .hero {
- @apply  mt-10 flex xl:flex-row md:flex-row flex-col right-0 left-0  gap-2 relative z-0 max-w-[1440px] mx-auto;
+ @apply flex   xl:flex-row md:flex-row flex-col right-0 left-0  gap-2 relative z-0  mx-auto;
 }
 
 .hero__image-container {
@@ -299,7 +299,7 @@
 
 /* Stats Component */
 .stat{
-     @apply flex flex-col flex-wrap sm:mb-20 mb-6 flex-center mt-10 flex-center
+     @apply flex flex-wrap sm:mb-20 mb-6 flex-center mt-10 flex-center
 }
 /* Cards */
 .feature_card {

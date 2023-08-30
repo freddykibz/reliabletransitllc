@@ -6,13 +6,15 @@ import Testimonials from "@components/Testimonials";
 import ValueStatement from "@components/ValueStatement";
 import ContactForm from "./contact/ContactForm";
 import ContactBlock from "@components/ContactBlock";
+import Slider from "@components/slider";
 
 
 const Home = () => {
   return (
     <div className="w-full">
       <HeroBanner/>
-      <ValueStatement/>
+      {/* <Slider/> */}
+            <ValueStatement/>
       <Business/>
       <Stats/>
       <Testimonials/>

@@ -15,7 +15,7 @@ function NavBar() {
               {/* LOGO */}
               <Link href="/">
               <Image
-                  src="/assets/logo_r.png"
+                  src="/assets/logo.png"
                   width={120}
                   height={120}
                   alt="Reliable Transit Logo"
@@ -69,7 +69,7 @@ function NavBar() {
                     FAQS
                   </Link>
                 </li>
-                <Link href='/book-appointment' className='flex-center mt-4  md:mt-0   '>
+                <Link href='/#contact' className='flex-center mt-4  md:mt-0   '>
                   <button
                   type='button'
                   className='bg-deluge py-4    text-white rounded-full  font-semibold text-xl px-6 hover:bg-deluge-light hover:text-white  '>BOOK APPOINTMENT
