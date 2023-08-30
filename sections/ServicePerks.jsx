@@ -12,7 +12,7 @@ const ServicePerks = () => {
         />
       </div>
      <div className="flex-1 flex-col flex-center">
-     <h1 className="sect_head text-center"> WE ARE </h1>
+     <h1 className="sect_head text-center text-deluge"> WE ARE </h1>
         <div className="md:flex-start md:pl-40 flex-col gap-6">
            <div className="flex gap-4 md:py-4 py-2 ">
            <Image 
@@ -21,7 +21,7 @@ const ServicePerks = () => {
                 width={32}
                 height={32}
             />
-           <p className="list_text ">Accessibility</p>
+           <p className="list_text ">Accessible</p>
            </div>
            <div className="flex gap-4 md:py-4 py-2 ">
            <Image 
@@ -30,7 +30,7 @@ const ServicePerks = () => {
                 width={32}
                 height={32}
             />
-           <p className="list_text ">Reliability</p>
+           <p className="list_text ">Reliable</p>
            </div>
            <div className="flex gap-4 md:py-4 py-2 ">
            <Image 
@@ -39,7 +39,7 @@ const ServicePerks = () => {
                 width={32}
                 height={32}
             />
-            <p className="list_text ">Professionalism</p>
+            <p className="list_text ">Professional</p>
            </div>
            <div className="flex gap-4 md:py-4 py-2">
            <Image 
@@ -48,7 +48,7 @@ const ServicePerks = () => {
                 width={32}
                 height={32}
             />
-           <p className="list_text ">Safety</p>
+           <p className="list_text ">Safety Oriented </p>
            </div>
            <div className="flex gap-4 md:py-4 py-2"> 
            <Image 
@@ -57,7 +57,7 @@ const ServicePerks = () => {
                 width={32}
                 height={32}
             />
-           <p className="list_text ">Flexibility</p>
+           <p className="list_text ">Flexible</p>
            </div>
           
          
