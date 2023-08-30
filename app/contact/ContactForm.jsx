@@ -26,7 +26,7 @@ export default function ContactForm(){
     return(
 
       
-      <section className="flex  mb-10 flex-col md:flex-row md:flex-center " id="#contact">
+      <section className="flex  mb-10 flex-col md:flex-row md:flex-center " id="#contact" name="contact">
         <form onSubmit={handleSubmit} className="flex flex-col md:flex-row w-full">
             <div className="flex-1 flex-col md:flex-row  ">
                 <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center my-4 '>
