@@ -112,6 +112,7 @@ video {
   position: fixed;
   display: flex;
   justify-content: center;
+  padding: 120px 24px 160px 24px;
   pointer-events: none;
 }
 
@@ -174,7 +175,7 @@ video {
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 w-full flex justify-center items-center flex-col left-0 right-0 mx-auto sm:px-16 ;
+  @apply relative z-10 flex justify-center items-center flex-col w-screen mx-auto sm:px-16 px-6
 }
 /* navbar */
 .nav-links {
