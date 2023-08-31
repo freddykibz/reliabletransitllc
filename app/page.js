@@ -11,7 +11,7 @@ import Slider from "@components/slider";
 
 const Home = () => {
   return (
-    <div className="w-full relative left-0 right-0">
+    <div className="w-full relative">
       {/* <HeroBanner/> */}
       <Slider/>
       <ValueStatement/>
@@ -20,8 +20,9 @@ const Home = () => {
       <Testimonials/>
       <CTA/>
       <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">GET IN TOUCH WITH US</h1>
-      <ContactForm/>
       <ContactBlock/>
+      <ContactForm/>
+     
     </div>
     
 
