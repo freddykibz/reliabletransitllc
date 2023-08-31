@@ -73,11 +73,11 @@ export default function ContactForm(){
                 minLength={10}
                 maxLength={500}
                 placeholder='Message'
-                className='text-lg font-normal bg-gray-50 border-gray-300 w-full md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg '
+                className='text-lg font-normal bg-gray-50 border-gray-300 w-3/4 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg '
               />
           </div>
           <div className="flex-center">
-          <button type='submit' className=' w-full md:w-1/3 px-14 py-4  md:px-8 flex-center md:py-4  bg-deluge text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
+          <button type='submit' className='w-3/4 md:w-1/3 px-14 py-4  md:px-8 flex-center md:py-4  bg-deluge text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
           </div>
             </div>      
  </form>
