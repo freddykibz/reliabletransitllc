@@ -7,7 +7,7 @@ const FeedBackCard = ({content, name, title, img}) => {
         <div className="flex justify-between flex-col px-10 md:py-6 
         rounded-[20px] md:max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 bg-deluge md:bg-white">
         
-         <p className='font-normal text-[24px] md:text-[26px] text-white  md:text-gray-500  leading-[32px] my-10'>{content}</p>
+         <p className='font-normal text-[20px] md:text-[26px] text-white  md:text-gray-500  leading-[32px] my-10'>{content}</p>
 
      <div className='flex flex-row flex-center'>
         <Image
