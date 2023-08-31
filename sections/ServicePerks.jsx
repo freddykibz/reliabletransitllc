@@ -2,19 +2,20 @@ import Image from "next/image"
 
 const ServicePerks = () => {
   return (
-    <section className="flex mt-40 flex-col md:flex-row  gap-10 w-full">   
-      <div className='flex-1 center'>
+    <section className="flex mt-40 flex-col md:flex-row flex-center gap-10 w-full ">   
+      <div className='flex-1 w-full ml-4 flex-center'>
         <Image
           src="/assets/contact.jpg"
           width={640}
           height={540}
           alt="service perks"
+          className="w-full blur-md filter brightness-40"
         />
       </div>
-     <div className="flex-1 flex-col flex-center">
+     <div className="flex-1 flex-col flex-center bg-purple-600">
      <h1 className="sect_head text-center text-deluge"> WE ARE </h1>
-        <div className="md:flex-start md:pl-40 flex-col gap-6">
-           <div className="flex gap-4 md:py-4 py-2 ">
+        <div className=" w-full md:flex-start md:pl-40 flex-col gap-6 ">
+           <div className=" w-full flex gap-4 md:py-4 py-2 ">
            <Image 
                 src="assets/check.svg"
                 alt="checkmark"

@@ -359,7 +359,7 @@ video {
 /**/
 
   .service-card {
-    @apply flex flex-center gap-8 flex-col h-[350px] w-[420px];
+    @apply flex flex-center flex-wrap flex-col w-full h-full  md:w-[440px] md:h-[350px] ;
     
   }
 
