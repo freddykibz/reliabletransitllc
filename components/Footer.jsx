@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ContactBlock from './ContactBlock';
 
 const Footer = () => (
-  <section className='footer_sect bg-deluge flex flex-center'>
+  <section className='footer_sect bg-deluge flex flex-center bottom-0 left-0 right-0'>
     <div className='flex  flex-2 md:flex-row px-6 flex-col mb-8 w-full mt-14'>
        <div className=' flex-1 flex flex-col justify-start mr-10'>
          <Image

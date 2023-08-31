@@ -17,6 +17,7 @@
   scroll-behavior: smooth
 }
 
+
 /*Components Container*/
 
 /* Spacing */
@@ -73,13 +74,13 @@
   @apply font-semibold text-deluge xs:text-[48px] text-[40px] sm:text-[36px] leading-[48px]  mb-1
  }
  .desc_paragraphs {
-  @apply mt-2 md:py-6  font-normal  text-[20px] md:text-[26px]  text-gray-500 sm:text-xl leading-[40.8px]  md:leading-[40.8px]; 
+  @apply   flex-center text-center mt-2 md:py-4 font-inter  font-normal  text-[18px] md:text-[24px] sm:text-xl leading-[40.8px]  md:leading-[40.8px] px-6; 
  }
  .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-picton-blue sm:text-6xl;
 }
 .heading-title{
-  @apply  text-[2.9rem] leading-none text-deluge font-bold font-sans text-center lg:text-5xl lg:text-left lg:leading-tight ;
+  @apply  text-[1.5rem] leading-none font-medium font-sans text-center lg:text-5xl lg:text-left lg:leading-tight ;
 }
 .hero__subtitle {
   @apply text-[27px] text-black  mt-5;
@@ -94,6 +95,16 @@
    @apply   uppercase font-semibold  text-gray-600 text-[32]  sm:text-[22px] leading-[30.8px] max-w-4xl
 }
 
+/* video */
+video {
+  @apply w-full md:h-[640px] object-cover z-[10]
+}
+.vid-content{
+  @apply absolute w-full h-[540px]  top-0 md:top-[400px] flex flex-col flex-center  py-10 z-[10];
+}
+.vid-overlay {
+  @apply top-[120] left-0 w-full md:h-[640px] bg-black z-[6]
+} 
 
 .main {
   width: 100vw;
@@ -101,7 +112,6 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  padding: 120px 24px 160px 24px;
   pointer-events: none;
 }
 
@@ -164,7 +174,7 @@
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 w-full flex justify-center items-center flex-col  mx-auto sm:px-16 px-6;
+  @apply relative z-10 w-full flex justify-center items-center flex-col left-0 right-0 mx-auto sm:px-16 ;
 }
 /* navbar */
 .nav-links {

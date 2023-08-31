@@ -5,10 +5,10 @@ import { features } from '../constants'
 
 const Business = () => {
   return (
-    <section className='flex-col business_container '>
+    <section className='flex-col business_container relative'>
         <div className='section_info'>
-            <h2 className='sect_head text-[24] text-center'>WE MAKE IT <br/> EASY! </h2>
-            <p className='md:text-[32px] text-[24]  text-gray-600   font-normal  max-w-[540px] mt-5 '> Moreover, Company X's well-trained and compassionate drivers undergo specialized training to offer courteous assistance, making clients feel comfortable and valued throughout their travels.</p>         
+            <h2 className='sect_head text-[24] text-center'>WE MAKE IT EASY! </h2>
+            <p className='md:text-[26px] text-[24]  text-gray-600   font-normal  max-w-[540px] mt-5 '> Moreover, Company X's well-trained and compassionate drivers undergo specialized training to offer courteous assistance, making clients feel comfortable and valued throughout their travels.</p>         
            <Button />
         </div>
         <div className="flex-col mt-8">

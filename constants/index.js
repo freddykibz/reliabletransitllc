@@ -222,3 +222,63 @@ export const stats = [
       img: people03,
     },
   ];
+
+  export const faqs = [
+    {
+      id: 'que-01',
+      question: "What is Paratransit/NEMTS?",
+      answer: "Paratransit, also known as Non-Emergency Medical Transportation (NEMTS), refers to specialized transportation services designed to assist individuals with disabilities or medical conditions in reaching their destinations, such as medical appointments, social events, or other essential trips."
+    },
+    {
+      id: 'que-02',
+      question: "Who is eligible for Paratransit/NEMTS services?",
+      answer: "Eligibility criteria vary, but typically include individuals who have disabilities, medical conditions, or mobility challenges that prevent them from using regular public transportation independently."
+    },
+    {
+      id: 'que-03',
+      question: "How do I determine my eligibility for your services?",
+      answer: "Eligibility can be assessed through an application process. Contact our company to obtain the necessary forms and information about the evaluation process."
+    },
+    {
+      id: 'que-04',
+      question: "How do I schedule a ride with your company?",
+      answer: "You can schedule a ride by contacting our booking hotline or using our online booking system. Provide your information, desired pick-up and drop-off locations, and preferred date and time."
+    },
+    {
+      id: 'que-05',
+      question: "What areas do you serve?",
+      answer: "We serve [list of service areas], catering to a wide range of locations to ensure that clients can access transportation where they need it."
+    },
+    {
+      id: 'que-06',
+      question: "Are your vehicles accessible?",
+      answer: "Yes, all our vehicles are equipped to accommodate individuals with mobility challenges. They are designed to provide comfortable and safe transportation for passengers with varying needs."
+    },
+    {
+      id: 'que-07',
+      question: "Are your drivers trained to assist passengers with disabilities?",
+      answer: "Absolutely, our drivers receive specialized training to assist passengers with disabilities, ensuring a supportive and respectful experience throughout the journey."
+
+    },
+    {
+      id: 'que-08',
+      question: "Can I bring a companion with me on the ride?",
+      answer: "In many cases, companions are allowed to accompany passengers. Please let us know in advance so we can make the necessary arrangements."
+      
+    },
+    {
+      id: 'que-09',
+      question: "How far in advance should I book a ride?",
+      answer: "In many cases, companions are allowed to accompany passengers. Please let us know in advance so we can make the necessary arrangements."
+      
+    },
+    {
+      id: 'que-10',
+      question: "What are your rates for Paratransit/NEMTS services?",
+      answer: "Rates can vary based on factors such as distance, type of trip, and any additional services required. Contact our customer service for detailed information about our pricing structure."
+      
+    },
+
+
+
+  ]
