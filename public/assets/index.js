@@ -33,6 +33,9 @@ import office from "./office.svg";
 import family from "./family.svg";
 import airplane from "./airplane.svg";
 import technology from "./technology.svg";
+import senior from "./senior.svg";
+import medical from "./medical.svg";
+import wheelchair from "./wheelchair.svg";
 
 
 export {
@@ -70,5 +73,8 @@ export {
   family,
   airplane,
   technology,
+  senior,
+  medical,
+  wheelchair,
   
 };

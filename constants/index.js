@@ -1,27 +1,28 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone, locationpin, destination, docpic, van,office, family,airplane,technology } from "../public/assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone,
+   locationpin, destination, docpic, van,office, family,airplane,technology,senior,medical,wheelchair } from "../public/assets";
 
 
 export const services = [
   {
     id: "service-1",
-    icon: docpic,
+    icon: medical,
     title: "Doctor Appointment",
     content:
-      "To schedule an appointment, you can either call our dedicated booking line",
+      "we specialize in transporting individuals to and from medical appointments, ensuring they receive the necessary care.",
   },
   {
     id: "service-2",
-    icon: van,
+    icon: senior,
     title: "Senior Transportation",
     content:
-      "To schedule an appointment, you can either call our dedicated booking line",
+      " we often cater to the elderly in the population, offering assistance  to the intended destination",
   },
   {
     id: "service-3",
     icon: family,
     title: "Family Gatherings",
     content:
-      "To schedule an appointment, you can either call our dedicated booking line",
+      "we are pleased to provide transportation for patients to attend special events, family gatherings, and celebrations.",
   },
   
     {
@@ -29,22 +30,22 @@ export const services = [
       icon:   airplane,
       title: "Airport  Transportation",
       content:
-        "To schedule an appointment, you can either call our dedicated booking line",
+        "we offer transportation to and from airports, catering to travelers with disabilities or mobility challenges.",
     },
     {
       id: "service-5",
       icon: office,
       title: "Pharmacy Trips",
       content:
-        "To schedule an appointment, you can either call our dedicated booking line",
+        " we offer transportation for individuals to pick up prescriptions and medications from pharmacies.",
     },
     
     {
       id: "service-7",
-      icon: technology,
+      icon: wheelchair,
       title: "Assistive Devices",
       content:
-        "To schedule an appointment, you can either call our dedicated booking line",
+        "Our Vehicle are equipped with assistive devices like lifts, ramps, and securement systems to ensure passenger safety.",
     },
   
 ];
@@ -95,7 +96,7 @@ export const stats = [
     {
       id: "stats-3",
       title: "Years Serving",
-      value: "4+",
+      value: "2",
     },
   ];
   
