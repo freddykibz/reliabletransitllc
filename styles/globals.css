@@ -74,7 +74,7 @@
   @apply font-semibold text-deluge xs:text-[48px] text-[40px] sm:text-[36px] leading-[48px]  mb-1
  }
  .desc_paragraphs {
-  @apply   flex-center text-center mt-2 md:py-4 font-inter  font-normal  text-[18px] md:text-[24px] sm:text-xl leading-[40.8px]  md:leading-[40.8px] px-6; 
+  @apply   flex-center text-center mt-2 md:py-4 font-inter  font-normal  text-[18px] md:text-[24px] sm:text-xl leading-[24.8px]  md:leading-[40.8px] px-6; 
  }
  .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-picton-blue sm:text-6xl;
