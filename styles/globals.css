@@ -309,7 +309,6 @@ video {
   @apply w-full h-full bg-repeat bg-pattern;
 }
 
-
 /* Business Component */
 .business_container {
   @apply flex md:flex-row flex-col sm:p-16 p-6;

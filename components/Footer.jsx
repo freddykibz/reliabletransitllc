@@ -4,19 +4,19 @@ import Image from 'next/image';
 import ContactBlock from './ContactBlock';
 
 const Footer = () => (
-  <section className='footer_sect bg-deluge flex flex-center bottom'>
+  <section className='footer_sect bg-deluge flex flex-center'>
     <div className='flex  flex-2 md:flex-row px-6 flex-col mb-8 w-full mt-14'>
-       <div className=' flex-1 flex flex-col justify-start mr-10'>
+       <div className=' flex-1  flex-center flex flex-col justify-start mr-10'>
          <Image
            src='/assets/logo.png'
-           width={120}
-           height={50}
+           width={220}
+           height={150}
            alt="Reliable Transit Logo"
            className='object-contain  bg-opacity-10 shadow-sm'
          />
          <p className='font-medium text-white text-[18px] leading-[30.8px]  max-w-[310px]'>Reliable paratransit and NEMTS services, ensuring seamless transportation solutions for diverse needs.</p>
        </div>
-       <div className='flex-[1.5] w-full flex flex-row flex-center gap-10 flex-wrap md:mt-0 mt-10'>
+       <div className='flex-[1.5] w-full flex flex-row flex-center md:flex-start  md:gap-80 gap-14 flex-wrap md:mt-0 mt-10 '>
         {footerLinks.map((footerLink)=> (
           <div key={footerLink.key} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
            <h4 className='font-medium text-[18px] md:text-[26px] leading-[30px] text-picton-blue-dark'>
