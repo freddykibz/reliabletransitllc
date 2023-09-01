@@ -7,6 +7,7 @@ import ValueStatement from "@components/ValueStatement";
 import ContactForm from "./contact/ContactForm";
 import ContactBlock from "@components/ContactBlock";
 import Slider from "@components/slider";
+import CoreValues from "@components/CoreValues";
 
 
 const Home = () => {
@@ -17,6 +18,8 @@ const Home = () => {
       <ValueStatement/>
       <Business/>
       <Stats/>
+      <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">OUR CORE VALUES</h1>
+      <CoreValues/>
       <Testimonials/>
       <CTA/>
       <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">GET IN TOUCH WITH US</h1>

@@ -64,11 +64,11 @@ function NavBar() {
                     CONTACT
                   </Link>
                 </li>
-                <li className="nav-links">
+                {/* <li className="nav-links">
                   <Link href="/faqs" onClick={() => setNavbar(!navbar)}>
                     FAQS
                   </Link>
-                </li>
+                </li> */}
                 <Link href='/#contact' className='flex-center mt-4  md:mt-0   '>
                   <button
                   type='button'

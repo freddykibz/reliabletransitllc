@@ -304,10 +304,7 @@ video {
 .banner__image-overlay {
   @apply relative xl:-top-24 xl:-right-1/2 -right-1/4 bg-service-bg bg-no-repeat -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
 }
-/* Banner bg */
-.banner-bg {
-  @apply w-full h-full bg-repeat bg-pattern;
-}
+
 
 /* Business Component */
 .business_container {
@@ -358,12 +355,12 @@ video {
 /**/
 
   .service-card {
-    @apply flex flex-center flex-wrap flex-col w-full h-full  md:w-[440px] md:h-[350px] ;
+    @apply flex flex-center flex-wrap flex-col md:flex-row w-full h-full  md:w-[440px] md:h-[350px] ;
     
   }
 
 .core-card {
-  @apply  w-[340px] flex flex-col flex-center;
+  @apply   w-full md:w-1/3  md:h-[440px] flex flex-col flex-center;
 }
 
 

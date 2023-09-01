@@ -224,7 +224,7 @@ export const stats = [
     },
   ];
 
-  export const faqs = [
+  export const faqsData = [
     {
       id: 'que-01',
       question: "What is Paratransit/NEMTS?",
