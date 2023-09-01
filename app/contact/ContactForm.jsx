@@ -30,7 +30,7 @@ export default function ContactForm(){
         <form onSubmit={handleSubmit} className="flex flex-col md:flex-row w-full">
             <div className="flex-1 flex-col md:flex-row  ">
                 <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center my-4 '>
-                <label className="font-medium  font-lg text-picton-blue mb-2 " htmlFor='name'>Name</label>
+                <label className="font-medium  font-lg text-deluge mb-2 " htmlFor='name'>Name</label>
                 <input 
                   type="text" 
                   minLength={3}
@@ -41,7 +41,7 @@ export default function ContactForm(){
                   />
               </div>
               <div className='w-full flex flex-col md:flex-row gap-8 px-12  flex-center my-6 '>
-                <label className="font-medium font-lg text-picton-blue mb-2" htmlFor='name'>Phone</label>
+                <label className="font-medium font-lg text-deluge mb-2" htmlFor='name'>Phone</label>
                 <input 
                   type="text" 
                   minLength={12}
@@ -51,7 +51,7 @@ export default function ContactForm(){
                     id='phone' />
               </div>
               <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center my-4 '>
-                <label className="font-medium font-lg text-picton-blue mb-2" htmlFor='email'>Email</label>
+                <label className="font-medium font-lg text-deluge mb-2" htmlFor='email'>Email</label>
                 <input 
                   type="email" 
                   minLength={5}

@@ -38,7 +38,7 @@ const Footer = () => (
        <div className='flex flex-col flex-center'>
         <h1 className='font-medium text-[24px] text-picton-blue-dark'>Contacts</h1>
 
-        <p className='text-white text-[20px] font-medium mb-4'>Email : info@reliabletransit.org</p>
+        <p className='text-white text-[20px] font-medium mb-4'><a className="underline"  href="mailto:info@reliabletransit.org">Email:info@reliabletransit.org</a></p>
         <p className='text-white text-[20px] font-medium md:mb-8'>Phone : +(312) 825-1175</p>
         <div className="flex flex-row md:mt-0 mt-6 py-4 px-4 bg-gallery bg-opacity-2 rounded-full flex-center md:w-full  w-3/5" >
            {socialMedia.map((social, index)=> (
@@ -56,7 +56,7 @@ const Footer = () => (
     </div>
     {/* Social Media */}
 
-    <div className='w-full  bg-gallery flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-gallery   '>
+    <div className='w-full  bg-gallery flex  flex-center md:flex-row flex-col pt-6 border-t-[1px] border-t-gallery   '>
        <p className='font-medium text-[18px] leading-[27px] text-center text-deluge px-4'>2023 Reliable Transit. All Rights Reserved</p>
    
     <div className="flex flex-row md:mt-0 mt-6 py-4 px-4 " >

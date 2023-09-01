@@ -60,6 +60,11 @@ function NavBar() {
                   </Link>
                 </li>
                 <li className="nav-links">
+                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                    ABOUT US
+                  </Link>
+                </li>
+                <li className="nav-links">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     CONTACT
                   </Link>
