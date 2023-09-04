@@ -1,7 +1,13 @@
 "use client"
+
+import { useState } from "react";
+
 export default function ContactForm(){
+  const  [loading, setLoading] =useState(false)
     async function handleSubmit(event) {
         event.preventDefault();
+        setLoading(true);
+
         const data = {
           name:event.target.name.value,
           phone:event.target.phone.value,
@@ -18,9 +24,15 @@ export default function ContactForm(){
 
         if (response.ok) {
             console.log("Message sent successfully");
+            setLoading(false);
+            // reset the form 
+            event.target.name.value = "";
+            event.target.email.value = "";
+            event.target.message.value = "";
         }
         if(!response.ok) {
             console.log("Error sending message")
+            setLoading(false)
         }
       }
     return(
@@ -77,7 +89,9 @@ export default function ContactForm(){
               />
           </div>
           <div className="flex-center">
-          <button type='submit' className='w-3/4 md:w-1/3 px-14 py-4  md:px-8 flex-center md:py-4  bg-deluge text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
+          <button type='submit'
+          disabled={loading}
+           className=' disabled:bg-gray-400  disabled:text-gray-100   w-3/4 md:w-1/3 px-14 py-4  md:px-8 flex-center md:py-4  bg-deluge text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
           </div>
             </div>      
  </form>

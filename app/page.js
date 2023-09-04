@@ -19,9 +19,9 @@ const Home = () => {
       <ValueStatement/>
       <Business/>
       <Stats/>
-      <h1 className="bg-gallery  font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">ABOUT US</h1>
+      <h1 className="bg-opacity-25 w-full font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px]  text-center py-6">ABOUT US</h1>
       <AboutUsInfo/>
-      <h1 className=" bg-gallery  font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">OUR CORE VALUES</h1>
+      <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">OUR CORE VALUES</h1>
       <CoreValues/>
       <Testimonials/>
       <CTA/>

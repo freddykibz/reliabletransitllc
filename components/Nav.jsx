@@ -74,7 +74,7 @@ function NavBar() {
                     FAQS
                   </Link>
                 </li> */}
-                <Link href='/#contact' className='flex-center mt-4  md:mt-0   '>
+                <Link href='/book-appointment' className='flex-center mt-4  md:mt-0   '>
                   <button
                   type='button'
                   className='bg-deluge py-4    text-white rounded-full  font-semibold text-xl px-6 hover:bg-deluge-light hover:text-white  '>BOOK APPOINTMENT
