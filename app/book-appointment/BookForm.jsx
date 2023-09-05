@@ -81,16 +81,6 @@ const BookForm = () => {
               autoComplete='off' 
               id='email' />
           </div>
-          <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-start my-4 '>
-            <label className="font-medium  font-lg text-deluge mb-2 " htmlFor='service'>Service</label>
-            <select name="service" className='md:w-1/2 w-full flex-center py-5 rounded-[10px] text-deluge md:font-medium font-normal  md:uppercase md:text-[16px]'>
-              <option value="Strecher">Client With Strecher</option>
-              <option value="Oxygen">With Oxygen</option>
-              <option value="wheelchair">WheelChair</option>
-              <option value="dialysis">Client on Dialysis</option>
-              <option value="orange">Others</option>
-        </select>
-          </div>
         </div>
         
 

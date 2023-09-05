@@ -11,6 +11,8 @@ import CoreValues from "@components/CoreValues";
 import AboutUsInfo from "@sections/AboutUs";
 
 
+
+
 const Home = () => {
   return (
     <div className="w-full relative">
