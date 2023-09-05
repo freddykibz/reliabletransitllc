@@ -2,6 +2,7 @@
 import { footerLinks, socialMedia  } from '../constants';
 import Image from 'next/image';
 import ContactBlock from './ContactBlock';
+import Link from 'next/link';
 
 const Footer = () => (
   <section className='footer_sect bg-deluge flex flex-center'>
@@ -25,8 +26,9 @@ const Footer = () => (
            <ul>
             {footerLink.links.map((link) => (
                <li key={link.name}
-                className='font-normal text-white text-[18px] leading-[24px]  hover:text-picton-blue'
+                className='font-normal text-white text-[18px] leading-[24px]  hover:text-picton-blue cursor-pointer'
                >
+                
                 {link.name}
                </li>
             )) }

@@ -129,7 +129,7 @@ export const stats = [
       links: [
         {
           name: "Book Appointment",
-          link: "/#contact",
+          link: "/book-appointment",
         },
         {
           name: "Our Services",
@@ -137,7 +137,7 @@ export const stats = [
         },
         {
           name: "About Us",
-          link: "/about-us",
+          link: "/#about",
         },
         {
           name: "Contact Us",
@@ -166,11 +166,11 @@ export const stats = [
         },
         {
           name: "twitter",
-          link: "https://www.hoobank.com/blog/",
+          link: "",
         },
         {
           name: "LinkedIn",
-          link: "https://www.hoobank.com/newsletters/",
+          link: "",
         },
       ],
     },
