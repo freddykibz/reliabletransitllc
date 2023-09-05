@@ -1,5 +1,5 @@
 import Button from "./Button"
-
+import Link from "next/link";
 const CTA = () => {
   return (
     <section className="flex-center flex-col md:flex-row marginY padding sm:flex-row  bg-deluge bg-cover rounded-[20px] vbox-shadow">
@@ -8,7 +8,9 @@ const CTA = () => {
         <p className="font-normal text-white text-[20px] md:text-[24px]  leading-[30.8px]  mt-5">Experience Convenience and Care with Our Paratransit/NEMTS Services! Book Your Ride Today and Enjoy Safe, Reliable, and Accessible Transportation for All Your Needs.</p>
       </div>
       <div className=" flex-1 flex-center sm:ml-10 ml-0 sm:mt-0 mt-4  md:mt-10">
-        <button className="py-4 px-6 bg-white font-semibold rounded-full text-deluge uppercase">Book Appointment</button>
+        <button className="py-4 px-6 bg-white font-semibold rounded-full text-deluge uppercase">   
+         <Link href="/book-appointment">BOOK APPOINTMENT</Link> 
+         </button>
       </div>
     </section>
   )

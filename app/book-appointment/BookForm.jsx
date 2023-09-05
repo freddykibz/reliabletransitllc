@@ -94,7 +94,7 @@ const BookForm = () => {
         </div>
         
 
-        <div className="flex-1 flex-col flex-center mx-8 ">
+        <div className="flex-1 flex-col flex-center md:mx-8 ">
         <div className='w-full flex flex-col md:flex-row gap-8 px-12   md:flex-start my-4 '>
             <label className="font-medium   mx-8 font-lg text-deluge mb-2 " htmlFor='trip'>Trip Date</label>
            
