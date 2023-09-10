@@ -185,6 +185,7 @@ video {
   justify-items: center;
   margin: auto;
   display: flex;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 640px) {
