@@ -29,10 +29,8 @@ export default async function BookingAPI(req, res) {
                  <p>Name: ${name}</p>
                  <p>Phone No: ${phone}</p>
                  <p>Email: ${email} </p>
-                 <p>Email: ${trip} </p>
-                 <p>Email: ${service} </p>
-                 <p>Email: ${city} </p>
-                 <p>Email: ${service} </p>
+                 <p>Ride Date: ${trip} </p>
+                 <p>City: ${city} </p>
                  <p>Message: ${comment}</p>
 
 

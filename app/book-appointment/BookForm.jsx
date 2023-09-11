@@ -14,7 +14,7 @@ const BookForm = () => {
         email: String (event.target.email.value),
         phone: String(event.target.phone.value),
         trip:String(event.target.trip.value),
-        service: String(event.target.service.value),
+        address: String(event.target.address.value),
         city: String(event.target.city.value),
         comment: String(event.target.comment.value),
 
@@ -33,10 +33,10 @@ const BookForm = () => {
     event.target.name.value = "";
     event.target.email.value = "";
     event.target.phone.value = "";
-    event.target.trip="";
-    event.target.service="";
-    event.target.city="";
-    event.target.comment="";
+    event.target.trip.value="";
+    event.target.address.value="";
+    event.target.city.value="";
+    event.target.comment.value="";
   }
   if(!response.ok) {
     console.log("Error sending message")
@@ -87,7 +87,6 @@ const BookForm = () => {
         <div className="flex-1 flex-col flex-center md:mx-8 ">
         <div className='w-full flex flex-col md:flex-row gap-8 px-12   md:flex-start my-4 '>
             <label className="font-medium   mx-8 font-lg text-deluge mb-2 " htmlFor='trip'>Trip Date</label>
-           
            <div>
                <DatePicker selected={date} onChange={(date) => setDate(date)} name="trip"  id="trip"  className='w-full rounded-[10px] md:w-1/2 flex-row'/>
            </div>
@@ -100,7 +99,9 @@ const BookForm = () => {
               maxLength={150}
               required 
               className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
-              autoComplete='off' id='name' 
+              autoComplete='off' 
+              id='address'
+              name= 'address' 
               />
           </div>
           <div className='w-full flex flex-col md:flex-row gap-8 px-12  md:flex-center  my-4 '>
@@ -111,7 +112,9 @@ const BookForm = () => {
               maxLength={150}
               required 
               className='mx-6 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
-              autoComplete='off' id='city' 
+              autoComplete='off' 
+              name='city'
+              id='city' 
               />
           </div>
           
@@ -124,7 +127,8 @@ const BookForm = () => {
             minLength={10}
             maxLength={500}
             placeholder='comments'
-            className='text-lg  font-normal bg-gray-50 border-gray-300 w-3/4 md:w-3/4 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg '
+            className='text-lg  font-normal bg-gray-50 border-gray-300 w-3/4 md:w-3/4 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg'
+            id='comment'
           />
       </div>
       <div className="flex-center w-full">
