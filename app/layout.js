@@ -11,8 +11,7 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
    <html lang ="en">
-    <body className="">
-   
+    <body>
       <div className='main'>
         {/* background */}
          {/* <div className="gradient" /> */}

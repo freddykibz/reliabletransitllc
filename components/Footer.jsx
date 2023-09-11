@@ -1,11 +1,9 @@
-// import { logo } from '../public/assets/logo'
 import { footerLinks, socialMedia  } from '../constants';
 import Image from 'next/image';
-import ContactBlock from './ContactBlock';
 import Link from 'next/link';
 
 const Footer = () => (
-  <section className='footer_sect bg-deluge flex flex-center'>
+  <footer className='footer_sect bg-deluge flex flex-center'>
     <div className='flex  flex-2 md:flex-row px-6 flex-col mb-8 w-full mt-14'>
        <div className=' flex-1  flex-center flex flex-col justify-start mr-10'>
          <Image
@@ -18,21 +16,19 @@ const Footer = () => (
          <p className='font-medium text-white text-[18px] leading-[30.8px]  max-w-[310px]'>Reliable paratransit and NEMTS services, ensuring seamless transportation solutions for diverse needs.</p>
        </div>
        <div className='flex-[1.5] w-full flex flex-row flex-center md:flex-start  md:gap-80 gap-14 flex-wrap md:mt-0 mt-10 '>
-        {footerLinks.map((footerLink)=> (
-          <div key={footerLink.key} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
-           <h4 className='font-medium text-[18px] md:text-[26px] leading-[30px] text-picton-blue-dark'>
-            {footerLink.title}
-           </h4>
-           <ul>
-            {footerLink.links.map((link) => (
-               <li key={link.name}
-                className='font-normal text-white text-[18px] leading-[24px]  hover:text-picton-blue cursor-pointer'
-               >
-                
-                {link.name}
-               </li>
+        {footerLinks.map((item)=> (
+          <div key={item.title} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
+           <h4 className='font-medium text-[18px] md:text-[26px] leading-[30px] text-picton-blue-dark'>{item.title}</h4>
+           <div className='flex flex-col gap-5'>
+            {item.links.map((link) => (
+              <Link key={link.title}
+                 href={link.url}
+                  className='font-normal text-white text-[18px] leading-[24px]  hover:text-picton-blue cursor-pointer'
+              >
+                {link.title}
+               </Link> 
             )) }
-           </ul>
+           </div>
           </div>
         ))}
 
@@ -75,7 +71,7 @@ const Footer = () => (
  </div>
     </div>
 
-  </section>
+  </footer>
 
 )
   

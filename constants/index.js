@@ -127,51 +127,21 @@ export const stats = [
     {
       title: "Useful Links",
       links: [
-        {
-          name: "Book Appointment",
-          link: "/book-appointment",
-        },
-        {
-          name: "Our Services",
-          link: "/services",
-        },
-        {
-          name: "About Us",
-          link: "/#about",
-        },
-        {
-          name: "Contact Us",
-          link: "/#contact",
-        },
-        {
-          name: "Terms & Services",
-          link: "/terms",
-        },
+        { title: "Book Appointment",url: "/book-appointment" },
+        { title: "Our Services",url: "/services" },
+        { title: "About Us", url: "/#about" },
+        { title: "Contact Us",url: "/#contact" },
+        { title: "Terms & Services", url: "/terms" },
       ],
     },
     {
       title: "Quick Links",
       links: [
-        {
-          name: "Privacy Policy",
-          link: "/privacy",
-        },
-        {
-          name: "FAQs",
-          link: "/faqs",
-        },
-        {
-          name: "facebook",
-          link: "",
-        },
-        {
-          name: "twitter",
-          link: "",
-        },
-        {
-          name: "LinkedIn",
-          link: "",
-        },
+        { title: "Privacy Policy", url: "/privacy" },
+        { title: "FAQs",url: "/faqs" },
+        { title: "facebook", url: "" },
+        { title: "twitter", url: "" },
+        { title: "LinkedIn",url: "",},
       ],
     },
   ];

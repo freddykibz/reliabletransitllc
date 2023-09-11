@@ -8,7 +8,7 @@ const AboutUsInfo = () => {
 
   }
   return (
-    <section className='flex  flex-col bg-yellow-500 md:flex-row  justify-between items-center max-lg:flex-col gap-10 w-full' name="about" id="about">
+    <section className='flex  flex-col bg-yellow-500 md:flex-row  justify-between items-center max-lg:flex-col gap-10 w-full'>
      
         
        <div className='flex flex-1 flex-col'>
