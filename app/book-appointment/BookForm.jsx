@@ -10,7 +10,8 @@ const BookForm = () => {
   async function handleSubmit (event) {
       event.preventDefault();
       const data = {
-        name: String(event.target.name.value),
+        name: String(event.target.firstname.value),
+        name: String(event.target.lastname.value),
         email: String (event.target.email.value),
         phone: String(event.target.phone.value),
         trip:String(event.target.trip.value),
@@ -30,7 +31,8 @@ const BookForm = () => {
     console.log("Message sent successfully");
     setLoading(false);
     // reset the form 
-    event.target.name.value = "";
+    event.target.firstname.value = "";
+    event.target.lastname.value = "";
     event.target.email.value = "";
     event.target.phone.value = "";
     event.target.trip.value="";
@@ -57,18 +59,18 @@ const BookForm = () => {
                   maxLength={150}
                   required 
                   className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
-                  autoComplete='off' id='name'
+                  autoComplete='off' id='firstname'
                   />
               </div>
               <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center md: flex-start my-4'>
-                <label className="font-medium  font-lg text-deluge mb-2 " htmlFor='firstname'>Last Name</label>
+                <label className="font-medium  font-lg text-deluge mb-2 " htmlFor='lastname'>Last Name</label>
                 <input 
                   type="text" 
                   minLength={3}
                   maxLength={150}
                   required 
                   className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
-                  autoComplete='off' id='name'
+                  autoComplete='off' id='lastname'
                   />
               </div>
           <div className='w-full flex flex-col md:flex-row gap-8 px-12  flex-start my-4 '>

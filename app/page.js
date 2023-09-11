@@ -9,6 +9,8 @@ import ContactBlock from "@components/ContactBlock";
 import Slider from "@components/slider";
 import CoreValues from "@components/CoreValues";
 import AboutUsInfo from "@sections/AboutUs";
+import SectionTitleAbout from "@sections/SectionTitleAbout";
+import SectionTitleCore from "@sections/SectionTitleCore";
 
 
 
@@ -21,9 +23,9 @@ const Home = () => {
       <ValueStatement/>
       <Business/>
       <Stats/>
-      <h1 className="bg-opacity-25 w-full font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px]  text-center py-6">ABOUT US</h1>
+       <SectionTitleAbout/>
       <AboutUsInfo/>
-      <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">OUR CORE VALUES</h1>
+      <SectionTitleCore/>
       <CoreValues/>
       <Testimonials/>
       <CTA/>

@@ -8,9 +8,11 @@ const AboutUsInfo = () => {
 
   }
   return (
-    <section className='flex  flex-col mt-40 md:flex-row  justify-between items-center max-lg:flex-col gap-10 w-full max-container' name="about" id="about">
+    <section className='flex  flex-col bg-yellow-500 md:flex-row  justify-between items-center max-lg:flex-col gap-10 w-full' name="about" id="about">
+     
+        
        <div className='flex flex-1 flex-col'>
-         <h2 className='sect_head text-[24] text-center text-picton-blue'>
+         <h2 className='hidden sm:block sect_head text-[24] text-center text-picton-blue bg-green-600'>
          WHO WE ARE
          </h2>
          <p className='desc_paragraphs text-gray-500'>

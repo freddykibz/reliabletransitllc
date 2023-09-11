@@ -66,8 +66,8 @@ body {
 }
 
 /* Text*/
-.heading2 {
-  @apply font-semibold  xs:text-[48px] text-[40px] text-picton-blue xs:leading-[76.8px] leading-[66.8px] w-full
+.section-head {
+  @apply  w-full font-bold xs:text-[48px] text-[20px] md:text-[32px] text-deluge xs:leading-[76.8px] leading-[66.8px]  text-center py-6;
 
 }
 .paragraph {
@@ -77,19 +77,19 @@ body {
   @apply font-satoshi text-slate-gray text-lg leading-7;
 }
 .section_info {
-  @apply flex-1 flex-col justify-center flex-start ;
+  @apply flex-1 flex-col justify-center ;
  }
  .sect_head {
-  @apply font-semibold text-deluge xs:text-[48px] text-[40px] sm:text-[36px] leading-[48px]  mb-1
+  @apply font-semibold  xs:text-[48px] text-[20px] md:text-[28px] sm:text-[36px]  mb-1
  }
  .desc_paragraphs {
-  @apply   flex-center md:text-center mt-2 md:py-4 font-inter  font-normal  text-[18px] md:text-[20px]  leading-[24.8px]  md:leading-[40.8px] px-6; 
+  @apply  flex-center text-center md:text-center mt-2 md:py-4  font-normal  text-[18px] md:text-[20px]  leading-[20.8px]  md:leading-[40.8px] px-6 py-4; 
  }
  .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-picton-blue sm:text-6xl;
 }
 .heading-title{
-  @apply  text-[1.5rem] leading-none font-medium font-sans text-center lg:text-5xl lg:text-left lg:leading-tight ;
+  @apply  text-[24px] leading-none font-medium font-sans text-center lg:text-5xl lg:text-left lg:leading-tight ;
 }
 .hero__subtitle {
   @apply text-[27px] text-black  mt-5;
@@ -314,7 +314,7 @@ video {
 
 /* Business Component */
 .business_container {
-  @apply flex md:flex-row flex-col sm:p-16 p-6;
+  @apply flex md:flex-row  flex-col sm:p-16 p-6;
  }
  
  .cta_button{
@@ -328,7 +328,7 @@ video {
 
 /* Stats Component */
 .stat{
-     @apply flex flex-wrap sm:mb-20 mb-6 flex-center mt-10 flex-center
+     @apply flex flex-wrap sm:mb-20  flex-center mb-0 flex-center
 }
 /* Cards */
 .feature_card {

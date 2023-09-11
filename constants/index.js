@@ -96,7 +96,7 @@ export const stats = [
     {
       id: "stats-3",
       title: "Years Serving",
-      value: "2",
+      value: "2+",
     },
   ];
   
