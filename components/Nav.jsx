@@ -32,8 +32,8 @@ function NavBar() {
                   ) : (
                     <Image
                       src="/assets/hamburger-menu.svg"
-                      width={64}
-                      height={64}
+                      width={150}
+                      height={46}
                       alt="logo"
                       className="focus:border-none active:border-none"
                     />

@@ -30,6 +30,7 @@ export default function ContactForm(){
             setLoading(false);
             // reset the form 
             event.target.name.value = "";
+            event.target.phone.value = "";
             event.target.email.value = "";
             event.target.message.value = "";
         }
