@@ -13,7 +13,7 @@ const ContactBlock = () => {
         <h1 className="hidden sm:block flex-1 gap-4 flex-center text-deluge md:font-medium md:text-2xl cursor-pointer"><a className="underline"  href="mailto:info@reliabletransit.org">Email:info@reliabletransit.org</a></h1>
         </div> 
         <div>
-        <h3 className="flex flex-row gap-4 text-deluge md:font-medium md:text-xl"><BiPhone size='1.5rem'/>Phone: +(312) 825-1175</h3>
+        <h3 className="flex flex-row gap-4 text-deluge md:font-medium md:text-xl"><BiPhone size='1.5rem'/><a className href="tel:+1-312-825-1175"></a>Phone: +(312) 825-1175</h3>
         </div>
         <div>
         <div className="flex flex-row md:mt-0 mt-6">
