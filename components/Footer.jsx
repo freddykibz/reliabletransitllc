@@ -8,8 +8,8 @@ const Footer = () => (
        <div className=' flex-1  flex-center flex flex-col justify-start mr-10'>
          <Image
            src='/assets/logo.png'
-           width={220}
-           height={150}
+           width={80}
+           height={80}
            alt="Reliable Transit Logo"
            className='object-contain  bg-opacity-10 shadow-sm'
          />
@@ -36,8 +36,8 @@ const Footer = () => (
        <div className='flex flex-col flex-center'>
         <h1 className='font-medium text-[24px] text-picton-blue-dark'>Contacts</h1>
 
-        <p className='text-white text-[20px] font-medium mb-4'><a className="underline"  href="mailto:info@reliabletransit.org">Email:info@reliabletransit.org</a></p>
-        <p className='text-white text-[20px] font-medium md:mb-8'>Phone : +(312) 825-1175</p>
+        <p className='text-white text-[20px] md:font-medium font-normal mb-4'><a className="underline"  href="mailto:info@reliabletransit.org">Email:info@reliabletransit.org</a></p>
+        <p className='text-white text-[20px] md:selection:font-medium font-normal md:mb-8'><a className href="tel:+13128251175">Phone: +(312) 825-1175</a></p>
         <div className="flex flex-row md:mt-0 mt-6 py-4 px-4 bg-gallery bg-opacity-2 rounded-full flex-center md:w-full  w-3/5" >
            {socialMedia.map((social, index)=> (
               <Image
