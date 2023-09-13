@@ -8,16 +8,16 @@ function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div className='w-full top-0 left-0 right-0 relative'>
-      <nav className="w-full  sticky bg-picton-blue z-10">
+      <nav className="w-full  fixed bg-picton-blue z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
-              <Link href="/">
+              <Link href="/"> 
               <Image
                   src="/assets/logo.png"
                   width={80}
-                  height={80}
+                  height={46}
                   alt="Reliable Transit Logo"
                   /> 
               </Link>
@@ -32,8 +32,8 @@ function NavBar() {
                   ) : (
                     <Image
                       src="/assets/hamburger-menu.svg"
-                      width={150}
-                      height={46}
+                      width={64}
+                      height={64}
                       alt="logo"
                       className="focus:border-none active:border-none"
                     />
