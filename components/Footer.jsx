@@ -8,8 +8,8 @@ const Footer = () => (
        <div className=' flex-1  flex-center flex flex-col justify-start mr-10'>
          <Image
            src='/assets/logo.png'
-           width={80}
-           height={80}
+           width={150}
+           height={46}
            alt="Reliable Transit Logo"
            className='object-contain  bg-opacity-10 shadow-sm'
          />

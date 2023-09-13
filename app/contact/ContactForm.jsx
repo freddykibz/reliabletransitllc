@@ -1,8 +1,11 @@
 "use client"
-
+ import 'react-phone-number-input/style.css'
+ import PhoneInput from 'react-phone-number-input';
+// import PhoneNumberInput from "@components/PhoneFormat";
 import { useState } from "react";
-
 export default function ContactForm(){
+
+  const[value, setValue] =useState()  
   const  [loading, setLoading] =useState(false)
     async function handleSubmit(event) {
         event.preventDefault();
@@ -53,15 +56,20 @@ export default function ContactForm(){
                   />
               </div>
               <div className='w-full flex flex-col md:flex-row gap-8 px-12  flex-center my-6 '>
-                <label className="font-medium font-lg text-deluge mb-2" htmlFor='name'>Phone</label>
-                <input 
+                {/* <label className="font-medium font-lg text-deluge mb-2" htmlFor='name'>Phone</label> */}
+                {/* <PhoneNumberInput/> */}
+                <PhoneInput 
+                 defaultCountry="US"
+                 value={value}
+                 onChange={setValue}
                   type="text" 
                   minLength={12}
                   maxLength={15}
                   required 
-                  className=' w-full px-3 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+                  className=' w-full px-1 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
                     id='phone' />
               </div>
+              
               <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center my-4 '>
                 <label className="font-medium font-lg text-deluge mb-2" htmlFor='email'>Email</label>
                 <input 
