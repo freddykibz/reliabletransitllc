@@ -16,8 +16,8 @@ function NavBar() {
               <Link href="/">
               <Image
                   src="/assets/logo.png"
-                  width={120}
-                  height={120}
+                  width={64}
+                  height={64}
                   alt="Reliable Transit Logo"
                   /> 
               </Link>
