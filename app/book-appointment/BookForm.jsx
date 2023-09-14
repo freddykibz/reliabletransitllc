@@ -130,7 +130,7 @@ const BookForm = () => {
               minLength={3}
               maxLength={150}
               required 
-              className='mx-6 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+              className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
               autoComplete='off' 
               name='city'
               id='city' 
