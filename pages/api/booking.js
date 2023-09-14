@@ -24,7 +24,7 @@ export default async function BookingAPI(req, res) {
             from: user,
             to:"info@reliabletransit.org",
             replyTo: email,
-            subject: `Contact form Submission from ${name}`,
+            subject: `Contact form Submission from ${firstname}`,
             html: `
                  <p>FirstName: ${firstname}</p>
                  <p>LastName: ${lastname}</p>
