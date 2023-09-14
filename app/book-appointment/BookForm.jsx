@@ -2,8 +2,11 @@
 import React, { useState } from 'react'
 import DatePicker from "react-datepicker";
 import 'react-datepicker/dist/react-datepicker.css'
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input';
 
 const BookForm = () => {
+  const[value, setValue] =useState()  
   const [date, setDate] = useState(new Date());
   const  [loading, setLoading] =useState(false)
 
@@ -75,7 +78,10 @@ const BookForm = () => {
               </div>
           <div className='w-full flex flex-col md:flex-row gap-8 px-12  flex-start my-4 '>
             <label className="font-medium font-lg text-deluge mb-2" htmlFor='phone'>Phone</label>
-            <input 
+            <PhoneInput 
+             defaultCountry="US"
+             value={value}
+             onChange={setValue}
               type="text" 
               minLength={12}
               maxLength={15}
