@@ -46,11 +46,12 @@ export default function ContactForm(){
         <form onSubmit={handleSubmit} className="flex flex-col md:flex-row w-full">
             <div className="flex-1 flex-col md:flex-row  ">
                 <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center my-4 '>
-                <label className="font-medium  font-lg text-deluge mb-2 " htmlFor='name'>Name</label>
+                {/* <label className="font-medium  font-lg text-deluge mb-2 " htmlFor='name'>Name</label> */}
                 <input 
                   type="text" 
                   minLength={3}
                   maxLength={150}
+                  placeholder='Name'
                   required 
                   className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
                   autoComplete='off' id='name' 
@@ -64,6 +65,7 @@ export default function ContactForm(){
                  value={value}
                  onChange={setValue}
                   type="text" 
+                  placeholder="Phone Number"
                   minLength={12}
                   maxLength={15}
                   required 
@@ -72,11 +74,12 @@ export default function ContactForm(){
               </div>
               
               <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center my-4 '>
-                <label className="font-medium font-lg text-deluge mb-2" htmlFor='email'>Email</label>
+                {/* <label className="font-medium font-lg text-deluge mb-2" htmlFor='email'>Email</label> */}
                 <input 
                   type="email" 
                   minLength={5}
                   maxLength={150}
+                  placeholder='Email'
                   required 
                   className=' px-3 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5  shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg w-full'  
                   autoComplete='off' 
