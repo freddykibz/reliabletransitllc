@@ -122,7 +122,7 @@ const BookForm = () => {
               maxLength={150}
               placeholder='Address'
               required 
-              className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
+              className='py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
               autoComplete='off' 
               id='address'
               name= 'address' 
@@ -134,15 +134,16 @@ const BookForm = () => {
               type="text" 
               minLength={3}
               maxLength={150}
+              placeholder='City'
               required 
-              className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
+              className='py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
               autoComplete='off' 
               name='city'
               id='city' 
               />
           </div>
           
-        <div className='w-full flex-col md:flex-row gap-8 flex-center md:flex-start my-6 '>
+        <div className='w-full flex-col md:flex-row gap-8 flex-start px-12 md:flex-start my-6 '>
          {/* <label className="hidden sm:block font-medium font-lg text-picton-blue mb-2 md:mx-8" htmlFor='comment'>Comment</label> */}
           <textarea 
             rows={8} 
