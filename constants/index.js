@@ -1,5 +1,5 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone,
-   locationpin, destination, docpic, van,office, family,airplane,technology,senior,medical,wheelchair } from "../public/assets";
+   locationpin, destination, docpic, van,office, family,airplane,technology,senior,medical,wheelchair,healthy,run,baseball } from "../public/assets";
 
 
 export const services = [
@@ -49,6 +49,26 @@ export const services = [
     },
   
 ];
+
+export const ServiceItems = [
+  {
+      id:"01",
+      title: 'Healthy',
+      description: 'Connecting Communities with Care',
+      icon: healthy,
+  },
+  {    id:"02",
+       title: 'Run',
+      description: 'Empowering Independence: Paratransit Services',
+      icon: run
+  },
+  {   
+      id:"03", 
+      title: 'Baseball',
+      description: 'Unlocking Mobility: Our Paratransit Solutions',
+      icon: baseball,
+  }
+]
 
 export const coreValues = [
 {

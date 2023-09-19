@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Footer = () => (
-  <footer className='footer_sect bg-deluge flex flex-center'>
+  <footer className='footer_sect bg-greyhood flex flex-center'>
     <div className='flex  flex-2 md:flex-row px-6 flex-col mb-8 w-full mt-14'>
        <div className=' flex-1  flex-center flex flex-col justify-start mr-10'>
          <Image
@@ -37,7 +37,7 @@ const Footer = () => (
         <h1 className='font-medium text-[24px] text-picton-blue-dark'>Contacts</h1>
 
         <p className='text-white text-[20px] md:font-medium font-normal mb-4'><a className="underline"  href="mailto:info@reliabletransit.org">Email:info@reliabletransit.org</a></p>
-        <p className='text-white text-[20px] md:selection:font-medium font-normal md:mb-8'><a className href="tel:+13128251175">Phone: +(312) 825-1175</a></p>
+        <p className='text-white text-[20px] md:selection:font-medium font-normal md:mb-8'><a href="tel:+13128251175">Phone: +(312) 825-1175</a></p>
         <div className="flex flex-row md:mt-0 mt-6 py-4 px-4 bg-gallery bg-opacity-2 rounded-full flex-center md:w-full  w-3/5" >
            {socialMedia.map((social, index)=> (
               <Image
@@ -55,7 +55,7 @@ const Footer = () => (
     {/* Social Media */}
 
     <div className='w-full  bg-gallery flex  flex-center md:flex-row flex-col pt-6 border-t-[1px] border-t-gallery   '>
-       <p className='font-medium text-[18px] leading-[27px] text-center text-deluge px-4'>2023 Reliable Transit. All Rights Reserved</p>
+       <p className='font-medium text-[18px] leading-[27px] text-center text-picton-blue px-4'>2023 Reliable Transit. All Rights Reserved</p>
    
     <div className="flex flex-row md:mt-0 mt-6 py-4 px-4 " >
       {socialMedia.map((social, index)=> (

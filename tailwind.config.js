@@ -46,6 +46,8 @@ module.exports = {
          'gallery-dark' : '#C8C5C8',
          'gallery-dark-shade':"#A39FA3",
          "slate-gray": "#6D6D6D",
+         
+         "greyhood" :"#26343f",
       },
       backgroundImage: {
         'pattern-bg': "url('/pattern.png')",

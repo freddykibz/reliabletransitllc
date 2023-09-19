@@ -55,48 +55,51 @@ const BookForm = () => {
     <form  className="flex flex-col md:flex-row w-full" onSubmit={handleSubmit}>
         <div className="flex-1 flex-col md:flex-row gap-3 ">
         <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center md: flex-start my-4'>
-                <label className="font-medium  font-lg text-deluge mb-2 " htmlFor='firstname'>First Name</label>
+                <label className="font-medium  font-lg text-picton-blue mb-2 " htmlFor='firstname'>First Name</label>
                 <input 
                   type="text" 
                   minLength={3}
                   maxLength={150}
+                  placeholder='First Name'
                   required 
-                  className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+                  className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-picton-blue rounded-lg ' 
                   autoComplete='off' id='firstname'
                   />
               </div>
               <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-center md: flex-start my-4'>
-                <label className="font-medium  font-lg text-deluge mb-2 " htmlFor='lastname'>Last Name</label>
+                <label className="font-medium  font-lg text-picton-blue mb-2 " htmlFor='lastname'>Last Name</label>
                 <input 
                   type="text" 
                   minLength={3}
                   maxLength={150}
+                  placeholder='Last Name'
                   required 
-                  className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+                  className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
                   autoComplete='off' id='lastname'
                   />
               </div>
           <div className='w-full flex flex-col md:flex-row gap-8 px-12  flex-start my-4 '>
-            <label className="font-medium font-lg text-deluge mb-2" htmlFor='phone'>Phone</label>
+            <label className="font-medium font-lg text-picton-blue mb-2" htmlFor='phone'>Phone</label>
             <PhoneInput 
              defaultCountry="US"
              value={value}
+             placeholder='Phone Number'
              onChange={setValue}
               type="text" 
               minLength={12}
               maxLength={15}
               required 
-              className=' w-full px-3 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+              className=' w-full px-3 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
                 id='phone' />
           </div>
           <div className='w-full flex flex-col md:flex-row gap-8 px-12 start my-4 '>
-            <label className="font-medium font-lg text-deluge mb-2" htmlFor='email'>Email</label>
+            <label className="font-medium font-lg text-picton-blue mb-2" htmlFor='email'>Email</label>
             <input 
               type="email" 
               minLength={5}
               maxLength={150}
               required 
-              className=' px-3 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5  shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg w-full'  
+              className=' px-3 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5  shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg w-full'  
               autoComplete='off' 
               id='email' />
           </div>
@@ -105,32 +108,32 @@ const BookForm = () => {
 
         <div className="flex-1 flex-col flex-center md:mx-8 ">
         <div className='w-full flex flex-col md:flex-row gap-8 px-12   md:flex-start my-4 '>
-            <label className="font-medium   mx-8 font-lg text-deluge mb-2 " htmlFor='trip'>Trip Date</label>
+            <label className="font-medium   mx-8 font-lg text-picton-blue mb-2 " htmlFor='trip'>Trip Date</label>
            <div>
                <DatePicker selected={date} onChange={(date) => setDate(date)} name="trip"  id="trip"  className='w-full rounded-[10px] md:w-1/2 flex-row'/>
            </div>
           </div>
           <div className='w-full flex flex-col md:flex-row gap-8 px-12 flex-start my-4 '>
-            <label className="font-medium font-lg text-deluge  mx-8  mb-2 " htmlFor='address'>Address</label>
+            <label className="font-medium font-lg text-picton-blue  mx-8  mb-2 " htmlFor='address'>Address</label>
             <input 
               type="text" 
               minLength={3}
               maxLength={150}
               required 
-              className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+              className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
               autoComplete='off' 
               id='address'
               name= 'address' 
               />
           </div>
           <div className='w-full flex flex-col md:flex-row gap-8 px-12  md:flex-center  my-4 '>
-            <label className="font-medium mx-8 flex-start  font-lg text-deluge mb-2 " htmlFor='city'>City</label>
+            <label className="font-medium mx-8 flex-start  font-lg text-picton-blue mb-2 " htmlFor='city'>City</label>
             <input 
               type="text" 
               minLength={3}
               maxLength={150}
               required 
-              className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+              className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
               autoComplete='off' 
               name='city'
               id='city' 
@@ -138,7 +141,7 @@ const BookForm = () => {
           </div>
           
         <div className='w-full flex-col md:flex-row gap-8 px-2 flex-center md:flex-start my-6 '>
-         <label className="hidden sm:block font-medium font-lg text-deluge mb-2 md:mx-8" htmlFor='comment'>Comment</label>
+         <label className="hidden sm:block font-medium font-lg text-picton-blue mb-2 md:mx-8" htmlFor='comment'>Comment</label>
           <textarea 
             rows={8} 
             required
@@ -146,14 +149,14 @@ const BookForm = () => {
             minLength={10}
             maxLength={500}
             placeholder='comments'
-            className='text-lg  font-normal bg-gray-50 border-gray-300 w-3/4 md:w-3/4 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg'
+            className='text-lg  font-normal bg-gray-50 border-gray-300 w-3/4 md:w-3/4 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg'
             id='comment'
           />
       </div>
       <div className="flex-center w-full">
       <button type='submit'
        disabled={loading}
-       className=' disabled:bg-gray-400  disabled:text-gray-100   w-3/4 md:w-1/2 px-14 py-4  md:px-8 flex-center md:py-4  bg-deluge text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
+       className=' disabled:bg-gray-400  disabled:text-gray-100   w-3/4 md:w-1/2 px-14 py-4  md:px-8 flex-center md:py-4  bg-picton-blue text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
       </div>
         </div>      
 </form>

@@ -1,6 +1,7 @@
 'use client'
 import CustomButton from "./CustomButton"
 import Image from "next/image"
+import ServiceCarousel from "./ServiceCarousel"
 
 const Servicebanner = () => {
     const handleSCroll = () => {
@@ -9,9 +10,9 @@ const Servicebanner = () => {
   
     return (
     
-    <div className='flex-center bg-deluge w-full flex-col md:flex-row mr-0'>
-        <div className="flex-1 flex-col py-6 px-4 items-start justify-center">
-        <h1 className='md:text-4xl uppercase text-white md:font-extrabold text-[32px] font-medium'>
+    <div className='flex-center bg-gallery w-full flex-col md:flex-row mr-0'>
+        <div className="hidden sm:block flex-1 flex-col py-6 px-4 items-start justify-center">
+        <h1 className='md:text-4xl uppercase text-picton-blue md:font-extrabold text-[32px] font-medium'>
         Customized Rides for Your Unique Needs
         <br/> Discover Our Services
         </h1>
@@ -21,7 +22,7 @@ const Servicebanner = () => {
         <div className="flex gap-8 flex-row  flex-center md:mb-20">
         <CustomButton
            title="Book A Ride"
-           containerStyles="hidden sm:block text-white text-bold uppercase border-white border-4 rounded-full mt-10"
+           containerStyles="hidden sm:block text-white text-bold uppercase border-greyhood border-4 rounded-full mt-10"
            handleClick={handleSCroll}
          />
          <CustomButton
@@ -34,18 +35,19 @@ const Servicebanner = () => {
         
        </div> 
        <div  className="flex-1 h-540 w-full fill-container">
-       <div className="hero__image-container">
+        <ServiceCarousel/>
+       {/* <div className="hero__image-container">
         <div  className="hero__image opacity-10 hidden sm:block">
             <Image
              src="/assets/pattern.png" alt="hero" fill className="h-[540] w-full object-cover" 
             />
         </div>
         
-        <div className="hero__image-overlay"></div>
+        <div className="hero__image-overlay"></div> */}
       </div>
         
         </div>      
-    </div>
+    // </div>
   )
 }
 

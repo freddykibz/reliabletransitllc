@@ -103,7 +103,7 @@ export default function ContactForm(){
           <div className="flex-center">
           <button type='submit'
           disabled={loading}
-           className=' disabled:bg-gray-400  disabled:text-gray-100   w-3/4 md:w-1/3 px-14 py-4  md:px-8 flex-center md:py-4  bg-deluge text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
+           className=' disabled:bg-gray-400  disabled:text-gray-100   w-3/4 md:w-1/3 px-14 py-4  md:px-8 flex-center md:py-4  bg-picton-blue text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
           </div>
             </div>      
  </form>

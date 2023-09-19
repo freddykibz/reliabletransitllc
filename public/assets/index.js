@@ -36,6 +36,9 @@ import technology from "./technology.svg";
 import senior from "./senior.svg";
 import medical from "./medical.svg";
 import wheelchair from "./wheelchair.svg";
+import healthy from "./healthy.svg";
+import baseball from "./baseball.svg";
+import run from "./run.svg";
 
 
 export {
@@ -76,5 +79,8 @@ export {
   senior,
   medical,
   wheelchair,
+  healthy,
+  baseball,
+  run,
   
 };

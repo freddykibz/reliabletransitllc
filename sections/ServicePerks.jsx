@@ -13,7 +13,7 @@ const ServicePerks = () => {
         />
       </div>
      <div className="flex-1 flex-col flex-center bg-purple-600">
-     <h1 className="sect_head text-center text-deluge"> WE ARE </h1>
+     <h1 className="sect_head text-center text-picton-blue"> WE ARE </h1>
         <div className=" w-full md:flex-start md:pl-40 flex-col gap-6 ">
            <div className=" w-full flex gap-4 md:py-4 py-2 ">
            <Image 

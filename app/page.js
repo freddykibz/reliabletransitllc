@@ -29,7 +29,7 @@ const Home = () => {
       <CoreValues/>
       <Testimonials/>
       <CTA/>
-      <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-deluge xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">GET IN TOUCH WITH US</h1>
+      <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-picton-blue xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">GET IN TOUCH WITH US</h1>
       <ContactBlock/>
       <ContactForm/>
      

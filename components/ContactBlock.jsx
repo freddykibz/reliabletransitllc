@@ -10,10 +10,10 @@ const ContactBlock = () => {
     <section className='flex-col w-full flex-center  md:flex-row bg-heroside-bg bg-repeat py-6 px-12 flex-between gap-4 shadow-sm '>
         <div></div>
         <div className='flex flex-center'>
-        <h1 className="hidden sm:block flex-1 gap-4 flex-center text-deluge md:font-medium md:text-2xl cursor-pointer"><a className="underline"  href="mailto:info@reliabletransit.org">Email:info@reliabletransit.org</a></h1>
+        <h1 className="hidden sm:block flex-1 gap-4 flex-center text-greyhood md:font-medium md:text-2xl cursor-pointer"><a className="underline"  href="mailto:info@reliabletransit.org">Email:info@reliabletransit.org</a></h1>
         </div> 
         <div>
-        <h3 className="flex mt-2 flex-row gap-4 text-deluge md:font-medium md:text-xl"><BiPhone size='1.5rem'/><a className href="tel:+13128251175">Phone: +(312) 825-1175</a></h3>
+        <h3 className="flex mt-2 flex-row gap-4 text-greyhood md:font-medium md:text-xl"><BiPhone size='1.5rem'/><a href="tel:+13128251175">Phone: +(312) 825-1175</a></h3>
         </div>
         <div>
         <div className="flex flex-row md:mt-0 mt-6">
