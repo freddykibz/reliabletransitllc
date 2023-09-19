@@ -34,7 +34,7 @@ const Servicebanner = () => {
         </div>
         
        </div> 
-       <div  className="flex-1 h-540 w-full fill-container">
+       <div  className="flex-1 h-540 flex-center w-full fill-container">
         <ServiceCarousel/>
        {/* <div className="hero__image-container">
         <div  className="hero__image opacity-10 hidden sm:block">
