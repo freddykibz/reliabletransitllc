@@ -1,5 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone,
-   locationpin, destination, docpic, van,office, family,airplane,technology,senior,medical,wheelchair,healthy,run,baseball,time,pickme,easy } from "../public/assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, star,phone,
+   locationpin, destination, office, family,airplane,senior,medical,wheelchair,time,pickme,easy } from "../public/assets";
 
 
 export const services = [

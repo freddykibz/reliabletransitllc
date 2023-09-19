@@ -97,7 +97,7 @@ export default function ContactForm(){
                 minLength={10}
                 maxLength={500}
                 placeholder='Message'
-                className='text-lg font-normal bg-gray-50 border-gray-300 w-3/4 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg'
+                className='text-lg font-normal bg-gray-50 border-gray-300 w-4/5 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg'
               />
           </div>
           <div className="flex-center">

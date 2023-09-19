@@ -2,6 +2,7 @@
 import CustomButton from "./CustomButton"
 import Image from "next/image"
 import ServiceCarousel from "./ServiceCarousel"
+import Link from "next/link"
 
 const Servicebanner = () => {
     const handleSCroll = () => {
@@ -19,18 +20,13 @@ const Servicebanner = () => {
         <p className="banner__subtitle ">
           Enabling Seamless Journeys <br/> Our Commitment to Accessible and Inclusive Paratransit Solutions  
         </p>
-        <div className="flex gap-8 flex-row  flex-center md:mb-20">
-        <CustomButton
-           title="Book A Ride"
-           containerStyles="hidden sm:block text-white text-bold uppercase border-greyhood border-4 rounded-full mt-10"
-           handleClick={handleSCroll}
-         />
-         <CustomButton
-           title="CALL: +(312) 825-1175"
-           containerStyles="bg-picton-blue text-white font-medium rounded-full mt-10 py-2 px2 text-normal"
-           className=""
-           handleClick={handleSCroll}
-         />
+        <div className="flex gap-8 flex-row  flex-center md:mb-20 mt-10">
+        <button className="py-4 px-6 bg-greyhood font-semibold rounded-full text-white uppercase flex-center">   
+         <Link href="/book-appointment">BOOK APPOINTMENT</Link> 
+         </button>
+         <button className="py-4 px-6 bg-picton-blue font-semibold rounded-full text-white uppercase flex-center">   
+         <Link legacyBehavior href="tel:+13128251175"><a href="tel:+13128251175">Phone: +(312) 825-1175</a></Link> 
+         </button>
         </div>
         
        </div> 
