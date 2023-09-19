@@ -142,7 +142,7 @@ const BookForm = () => {
               />
           </div>
           
-        <div className='w-full flex-col md:flex-row gap-8 px-2 flex-center md:flex-start my-6 '>
+        <div className='w-full flex-col md:flex-row gap-8 flex-center md:flex-start my-6 '>
          {/* <label className="hidden sm:block font-medium font-lg text-picton-blue mb-2 md:mx-8" htmlFor='comment'>Comment</label> */}
           <textarea 
             rows={8} 

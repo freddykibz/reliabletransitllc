@@ -53,7 +53,7 @@ export default function ContactForm(){
                   maxLength={150}
                   placeholder='Name'
                   required 
-                  className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+                  className='px-3 py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
                   autoComplete='off' id='name' 
                   />
               </div>
@@ -69,7 +69,7 @@ export default function ContactForm(){
                   minLength={12}
                   maxLength={15}
                   required 
-                  className=' w-full px-1 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg ' 
+                  className=' w-full px-1 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
                     id='phone' />
               </div>
               
@@ -81,7 +81,7 @@ export default function ContactForm(){
                   maxLength={150}
                   placeholder='Email'
                   required 
-                  className=' px-3 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5  shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg w-full'  
+                  className=' px-3 py-4 text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5  shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-picton-blue rounded-lg w-full'  
                   autoComplete='off' 
                   id='email' />
               </div>
@@ -97,7 +97,7 @@ export default function ContactForm(){
                 minLength={10}
                 maxLength={500}
                 placeholder='Message'
-                className='text-lg font-normal bg-gray-50 border-gray-300 w-3/4 md:w-3/5 shadow-sm focus:ouline-none focus:border-deluge focus:ring-1  focus:ring-deluge rounded-lg '
+                className='text-lg font-normal bg-gray-50 border-gray-300 w-3/4 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg'
               />
           </div>
           <div className="flex-center">
