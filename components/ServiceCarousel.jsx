@@ -33,7 +33,7 @@ const ServiceCarousel = () => {
       };
 
   return (
-    <div className="carousel flex flex-center">
+    <div className="md:w-full px-20 carousel flex flex-center backgrounds">
         <div className="inner" 
             style={{ transform: `translate(-${activeIndex * 100}%)`
             }}
@@ -43,7 +43,7 @@ const ServiceCarousel = () => {
             })}
         </div>
 
-        <div className="carousel_buttons flex flex-center">
+        <div className="carousel_buttons flex flex-center ">
             <button onClick={()=> {
                 updateIndex(activeIndex -1);
             }} className="button-arrow flex-center">

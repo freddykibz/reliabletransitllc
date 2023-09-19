@@ -316,6 +316,7 @@ video {
   justify-content: center;
   height: 490px;
   background-color: #EEECEE;
+  padding: 24px;
  
 
 }
@@ -331,12 +332,12 @@ video {
 
 }
 .carousel_item_text {
-  
- font-size: 1.75rem;
+  @apply text-[1.15rem] mx-6 px-5 whitespace-normal text-greyhood
+ /* font-size: 1.15rem;
  margin: 40px 0 40px 0;
  padding: 0 20px 0 20px;
  white-space: normal;
- color:#617d98;
+ color:#617d98; */
 }
 .carousel_buttons {
    display: flex;
