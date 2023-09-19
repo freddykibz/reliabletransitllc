@@ -13,7 +13,7 @@ const FeatureCard = ({ icon, title, content, index }) => {
       className="w-[50%] h-[50%] object-contain" />
     </div>
         <div className="flex flex-1  flex-col ml-3">
-            <h4 className="font-medium text-picton-blue md:text-[26px] text-24 leading-[23px] mb-4">
+            <h4 className="font-medium text-picton-blue  text-24 leading-[23px] mb-4">
                 {title}
             </h4>
             <p className="font-normal break-normal break-words text-gray-500 text-[20px] leading-[24px] mb-1">
