@@ -152,7 +152,7 @@ const BookForm = () => {
             minLength={10}
             maxLength={500}
             placeholder='comments'
-            className='text-lg  font-normal px-2 bg-gray-50 border-gray-300 w-full md:w-2/3 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg'
+            className='text-lg  font-normal px-6 py-4 bg-gray-50 border-gray-300 w-full md:w-2/3 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg'
             id='comment'
           />
       </div>
