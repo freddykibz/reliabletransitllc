@@ -152,11 +152,11 @@ const BookForm = () => {
             minLength={10}
             maxLength={500}
             placeholder='comments'
-            className='text-lg  font-normal px-4 bg-gray-50 border-gray-300 w-full md:w-3/4 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg'
+            className='text-lg  font-normal px-2 bg-gray-50 border-gray-300 w-full md:w-2/3 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg'
             id='comment'
           />
       </div>
-      <div className="flex-center w-full">
+      <div className="flex-start px-12 w-full">
       <button type='submit'
        disabled={loading}
        className=' disabled:bg-gray-400  disabled:text-gray-100   w-3/4 md:w-1/2 px-14 py-4  md:px-8 flex-center md:py-4  bg-picton-blue text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
