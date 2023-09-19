@@ -39,6 +39,9 @@ import wheelchair from "./wheelchair.svg";
 import healthy from "./healthy.svg";
 import baseball from "./baseball.svg";
 import run from "./run.svg";
+import easy from "./easy.svg";
+import pickme from "./pickme.svg";
+import time from "./time.svg";
 
 
 export {
@@ -82,5 +85,8 @@ export {
   healthy,
   baseball,
   run,
+  easy,
+  pickme,
+  time,
   
 };

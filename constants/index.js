@@ -1,5 +1,5 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,phone,
-   locationpin, destination, docpic, van,office, family,airplane,technology,senior,medical,wheelchair,healthy,run,baseball } from "../public/assets";
+   locationpin, destination, docpic, van,office, family,airplane,technology,senior,medical,wheelchair,healthy,run,baseball,time,pickme,easy } from "../public/assets";
 
 
 export const services = [
@@ -53,20 +53,20 @@ export const services = [
 export const ServiceItems = [
   {
       id:"01",
-      title: 'Healthy',
-      description: 'Connecting Communities with Care',
-      icon: healthy,
+      title: 'Booking',
+      description: 'Effortless Travel Starts Here: Simplified Booking with Us!',
+      icon: easy,
   },
   {    id:"02",
        title: 'Run',
-      description: 'Empowering Independence: Paratransit Services',
-      icon: run
+      description: 'Meticulously designed to ensure that our clients arrive on time ',
+      icon: time
   },
   {   
       id:"03", 
-      title: 'Baseball',
-      description: 'Unlocking Mobility: Our Paratransit Solutions',
-      icon: baseball,
+      title: 'Pick Up',
+      description: 'Start your journey in the most hassle-free and comfortable manner possible.',
+      icon: pickme,
   }
 ]
 
