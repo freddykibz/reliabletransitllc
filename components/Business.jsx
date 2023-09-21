@@ -8,8 +8,12 @@ const Business = () => {
   return (
     <section className='flex-col business_container flex-center gap-10 relative'>
         <div className='section_info  flex-start '>
-            <h2 className='sect_head text-picton-blue text-start'>WE MAKE IT EASY! </h2>
-            <p className='md:text-[28px] text-[18]  text-gray-600   font-normal  max-w-[540px] mt-5 '>ReliableTransit has well trained and compassionate drivers undergo specialized training to offer courteous assistance, making clients feel comfortable and valued throughout their travels.</p>         
+            <h2 className='sect_head text-picton-blue text-start'>Proprietary Technology Driven </h2>
+            <p className='md:text-[24px] text-[18]  text-gray-600   font-normal  max-w-[540px] mt-5 '>We use cutting edge technology to keep an eye on every ride in real time.
+We monitor car speed to vehicle safety to time of arrival at every stop along
+the way. The software allows us to monitor our vehicles with a precise
+location with the intent of minimizing risks. This makes sure our customers
+are safe while riding with us.</p>         
             <button className="py-4 px-6 bg-picton-blue font-semibold mt-10 rounded-full text-white uppercase">   
          <Link href="/book-appointment">BOOK APPOINTMENT</Link> 
          </button>
