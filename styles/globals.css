@@ -444,7 +444,7 @@ video {
 }
 
 .work_card {
-  @apply flex flex-center flex-col gap-4 shadow-lg border-2 py-4 w-[540px]
+  @apply w-full flex flex-center flex-col  shadow-lg  shadow-picton-blue border-2 py-4 md:w-[540px]
 
 }
 

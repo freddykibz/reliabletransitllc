@@ -21,12 +21,12 @@ const WorkingHour = () => {
        <div className='flex flex-center px-12'>
         <div className='work_card  w-full'>
             <h3 className='font-medium text-[20px]'>Working Hours</h3>
-            <p><strong className='text-picton-blue'>Monday:</strong> 4:00 AM - 6:00 PM</p>
-            <p><strong  className='text-picton-blue'>Tuesday:</strong> 4:00 AM - 6:00 PM</p>
-            <p><strong className='text-picton-blue'>Wednesday:</strong> 4:00 AM - 6:00 PM</p>
-            <p><strong className='text-picton-blue'>Thursday:</strong> 4:00 AM - 6:00 PM</p>
-            <p><strong className='text-picton-blue'>Friday:</strong>  4:00 AM - 6:00 PM</p>
-            <p><strong className='text-picton-blue'>Saturday:</strong> 4:00 AM - 6:00 PM</p>
+            <p className='px-4 py-2 flex-center w-full text-[18px] text-greyhood'><strong className='text-picton-blue pr-2'>Monday:</strong> 4:00 AM - 6:00 PM</p>
+            <p className='px-4 py-2 flex-center w-full text-[18px] text-greyhood'><strong  className='text-picton-blue pr-2'>Tuesday:</strong> 4:00 AM - 6:00 PM</p>
+            <p className='px-4 py-2 flex-center w-full text-[18px] text-greyhood'><strong className='text-picton-blue pr-2'>Wednesday:</strong> 4:00 AM - 6:00 PM</p>
+            <p className='px-4 py-2 flex-center w-full text-[18px] text-greyhood'><strong className='text-picton-blue pr-2'>Thursday:</strong> 4:00 AM - 6:00 PM</p>
+            <p className='px-4 py-2 flex-center w-full text-[18px] text-greyhood'><strong className='text-picton-blue pr-2'>Friday:</strong>  4:00 AM - 6:00 PM</p>
+            <p className='px-4 py-2 flex-center w-full text-[18px] text-greyhood'><strong className='text-picton-blue pr-2'>Saturday:</strong> 4:00 AM - 6:00 PM</p>
         </div>
        </div>
     </section>
