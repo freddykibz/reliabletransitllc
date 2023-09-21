@@ -16,11 +16,11 @@ const AboutUsInfo = () => {
          WHO WE ARE
          </h2>
          <p className='desc_paragraphs text-gray-500'>
-         At Reliable Transit LLC, we are more than just a transportation company – 
-         we are a bridge to independence, dignity, and connectivity for individuals with unique mobility challenges and medical needs.
-          With a deep commitment to enhancing the lives of our passengers, we provide exceptional 
-          Paratransit and Non-Emergency Medical Transportation Services (NEMTS) that ensure safe,
-           accessible, and reliable journeys for all.
+         Reliable Transit provides a high standard of non-emergency medical
+transportation for our clients resident in the Chicago land area and
+surrounding communities and assure them of safe and reliable services.
+We are guided by caring, respectful and being reliable . Whether you need
+to go visit a doctor or see loved ones, we are here to serve.
          </p>
         
         </div> 

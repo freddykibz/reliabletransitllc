@@ -443,6 +443,10 @@ video {
   @apply   w-full md:w-1/3 flex flex-col flex-center;
 }
 
+.work_card {
+  @apply flex flex-center flex-col gap-4 shadow-lg border-2 py-4 w-[540px]
+
+}
 
 /* PromptCard Component */
 .prompt_card {

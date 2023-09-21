@@ -13,7 +13,7 @@ const ServiceCarouselItem = ({ item }) => {
      alt={item.title}
      
      />
-    <div className="w-3/4 md:w-full carousel_item_text flex text-center mt-4 px-12" >
+    <div className="w-1/2 md:w-full carousel_item_text flex text-center mt-4 px-18 " >
         {item.description}
     </div>
     </div>

@@ -5,7 +5,10 @@ const ValueStatement = () => {
    <section className='w-full flex-center flex-col bg-picton-gallery mt-0 md:py-6'>
      <h1 className='sect_head text-greyhood text-center py-2 '>WHY RELIABLE TRANSIT LLC</h1>
      <p className='desc_paragraphs text-greyhood md:text-center md:max-w-6xl font-normal'>
-     Reliable Transit LLC, we redefine transportation accessibility. With our unwavering commitment to excellence, we provide seamless paratransit and NEMT services that prioritize your comfort, safety, and convenience. Our well-maintained fleet, compassionate staff, and innovative technology ensure that your journey is not only reliable but also tailored to your unique needs. 
+     Network that understands the importance of being Caring, Respectful and Reliable.Our network from the personnel to partners work as a team with one mission and one goal: to make sure every service request is answered in a
+safe and timely manner. At Reliable Transit, we offer scalable transport
+capacity to suit your ever changing needs, so we are happy to satisfy your
+service needs.
      </p>
    </section>
   )
