@@ -1,6 +1,5 @@
 import Business from "@components/Business";
-import CTA from "@components/CTA";
-import HeroBanner from "@components/Hero";
+// import CTA from "@components/CTA";
 import Stats from "@components/Stats";
 import Testimonials from "@components/Testimonials";
 import ValueStatement from "@components/ValueStatement";
@@ -12,14 +11,14 @@ import AboutUsInfo from "@sections/AboutUs";
 import SectionTitleAbout from "@sections/SectionTitleAbout";
 import SectionTitleCore from "@sections/SectionTitleCore";
 import WorkingHour from "@components/WorkingHour";
+import CtaSection from "@components/CtaSection";
 
 
 
 
 const Home = () => {
   return (
-    <div className="w-full relative">
-      {/* <HeroBanner/> */}
+    <div className="w-full relative">  
       <Slider/>
       <ValueStatement/>
       <Business/>
@@ -29,8 +28,11 @@ const Home = () => {
       <SectionTitleCore/>
       <CoreValues/>
       <Testimonials/>
-      <CTA/>
-      <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-picton-blue xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">GET IN TOUCH WITH US</h1>
+      <CtaSection/>
+      {/* <CTA/> */}
+     <div id="#contact" name="contact">
+     <h1  className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-picton-blue xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">GET IN TOUCH WITH US</h1>
+      </div> 
       <WorkingHour/>
       <ContactBlock/>
 
