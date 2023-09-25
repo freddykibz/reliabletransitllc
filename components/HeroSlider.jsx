@@ -15,7 +15,7 @@ const HeroSlider = () => {
     <div className='flex-center bg-gallery w-full flex-col md:flex-row mr-0 mb-10'>
         <div className="hidden sm:block flex-1 flex-col py-6 px-4 items-start justify-center">
         <h1 className='md:text-4xl uppercase text-picton-blue md:font-extrabold text-[32px] font-medium'>
-        Customized Rides for Your Unique Needs
+        Customized Rides 
         <br/> Discover Our Services
         </h1>
         <p className="banner__subtitle ">

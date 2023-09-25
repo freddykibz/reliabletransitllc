@@ -1,12 +1,11 @@
 import nodemailer from "nodemailer";
 
 export default async function BookingAPI(req, res) {
-    const {firstname,lastname, phone, email, trip, service, city, comment } = req.body
+    const { firstname, lastname, phone, email, trip, service, city, comment } = req.body
     
     const user = process.env.user
 
-    const data = {
-        firstname,lastname, phone, email, trip, service, city, comment
+    const data = { firstname, lastname, phone, email, trip, service, city, comment
     }
 
     const transporter = nodemailer.createTransport({
@@ -33,8 +32,6 @@ export default async function BookingAPI(req, res) {
                  <p>Ride Date: ${trip} </p>
                  <p>City: ${city} </p>
                  <p>Message: ${comment}</p>
-
-
             `,
 
         });

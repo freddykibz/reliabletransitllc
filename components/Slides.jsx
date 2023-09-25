@@ -1,7 +1,5 @@
 import React from 'react'
 import ImageSlider from './ImageSlider'
-import { Container } from 'postcss'
-
 
 const Slides = () => {
 const slides =[
