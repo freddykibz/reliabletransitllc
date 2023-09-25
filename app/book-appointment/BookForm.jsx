@@ -13,8 +13,8 @@ const BookForm = () => {
   async function handleSubmit (event) {
       event.preventDefault();
       const data = {
-        name: String(event.target.firstname.value),
-        name: String(event.target.lastname.value),
+        firstname: String(event.target.firstname.value),
+        lastname: String(event.target.lastname.value),
         email: String (event.target.email.value),
         phone: String(event.target.phone.value),
         trip:String(event.target.trip.value),
