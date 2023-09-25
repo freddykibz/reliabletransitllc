@@ -12,6 +12,8 @@ import SectionTitleAbout from "@sections/SectionTitleAbout";
 import SectionTitleCore from "@sections/SectionTitleCore";
 import WorkingHour from "@components/WorkingHour";
 import CtaSection from "@components/CtaSection";
+import HeroSlider from "@components/HeroSlider";
+// import Slides from "@components/Slides";
 
 
 
@@ -19,7 +21,9 @@ import CtaSection from "@components/CtaSection";
 const Home = () => {
   return (
     <div className="w-full relative">  
-      <Slider/>
+      {/* <Slider/> */}
+      <HeroSlider/>
+      {/* <Slides/> */}
       <ValueStatement/>
       <Business/>
       <Stats/>
