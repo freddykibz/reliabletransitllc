@@ -77,7 +77,7 @@ function NavBar() {
                 <Link href='/book-appointment' className='flex-center mt-4  md:mt-0   '>
                   <button
                   type='button'
-                  className='bg-white py-4  text-picton-blue rounded-full  font-semibold text-xl px-4 md:px-6 hover:bg-picton-blue-light hover:text-white  '>BOOK APPOINTMENT
+                  className='bg-white py-4  text-picton-blue rounded-full font-semibold text-xl px-4 md:px-6 hover:bg-picton-blue-light hover:text-white'>BOOK APPOINTMENT
                   </button>
                  </Link>
               </ul>

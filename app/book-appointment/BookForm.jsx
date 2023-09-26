@@ -4,6 +4,8 @@ import DatePicker from "react-datepicker";
 import 'react-datepicker/dist/react-datepicker.css'
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const BookForm = () => {
   const[value, setValue] =useState()  
@@ -20,6 +22,7 @@ const BookForm = () => {
         trip:String(event.target.trip.value),
         address: String(event.target.address.value),
         city: String(event.target.city.value),
+        zipcode: String(event.target.zipcode.value),
         comment: String(event.target.comment.value),
 
   };
@@ -41,6 +44,7 @@ const BookForm = () => {
     event.target.trip.value="";
     event.target.address.value="";
     event.target.city.value="";
+    event.target.zipcode.value="";
     event.target.comment.value="";
   }
   if(!response.ok) {
@@ -49,6 +53,12 @@ const BookForm = () => {
   }
   
   }
+
+  const notify = () => {
+    toast.success("Thank You! Your Booking  Was Received", {
+      position: toast.POSITION.TOP_CENTER
+    });
+  };
   return (
           
     <section className="flex w-full mb-10 flex-col md:flex-row md:flex-center " name="booking">
@@ -142,6 +152,20 @@ const BookForm = () => {
               id='city' 
               />
           </div>
+          <div className='w-full flex flex-col md:flex-row gap-8 px-12  md:flex-center  my-4 '>
+            {/* <label className="font-medium mx-8 flex-start  font-lg text-picton-blue mb-2 " htmlFor='city'>City</label> */}
+            <input 
+              type="text" 
+              minLength={3}
+              maxLength={150}
+              placeholder='ZipCode'
+              required 
+              className='py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
+              autoComplete='off' 
+              name='zipcode'
+              id='zipcode' 
+              />
+          </div>
           
         <div className='w-full flex-col md:flex-row gap-8 flex-start px-12 md:flex-start my-6 '>
          {/* <label className="hidden sm:block font-medium font-lg text-picton-blue mb-2 md:mx-8" htmlFor='comment'>Comment</label> */}
@@ -159,7 +183,8 @@ const BookForm = () => {
       <div className="flex-start px-12 w-full">
       <button type='submit'
        disabled={loading}
-       className=' disabled:bg-gray-400  disabled:text-gray-100   w-3/4 md:w-1/2 px-14 py-4  md:px-8 flex-center md:py-4  bg-picton-blue text-white font-bold items-center rounded-full mt-4 mb-6'>Send</button>
+       className=' disabled:bg-gray-400  disabled:text-gray-100   w-3/4 md:w-1/2 px-14 py-4  md:px-8 flex-center md:py-4  bg-picton-blue text-white font-bold items-center rounded-full mt-4 mb-6' onClick={notify}>Send</button>
+       <ToastContainer/>
       </div>
         </div>      
 </form>

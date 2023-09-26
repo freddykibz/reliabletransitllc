@@ -3,6 +3,9 @@
  import PhoneInput from 'react-phone-number-input';
 // import PhoneNumberInput from "@components/PhoneFormat";
 import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 export default function ContactForm(){
 
   const[value, setValue] =useState()  
@@ -39,6 +42,12 @@ export default function ContactForm(){
             setLoading(false)
         }
       }
+      
+      const notify = () => {
+        toast.success("Thank You! Your Booking  Was Received", {
+          position: toast.POSITION.TOP_CENTER
+        });
+      };
     return(
 
       
