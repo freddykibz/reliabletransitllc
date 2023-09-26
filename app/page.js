@@ -31,7 +31,7 @@ const Home = () => {
       <AboutUsInfo/>
       <SectionTitleCore/>
       <CoreValues/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <CtaSection/>
       {/* <CTA/> */}
      <div id="#contact" name="contact">
