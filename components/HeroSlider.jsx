@@ -15,11 +15,11 @@ const HeroSlider = () => {
     <div className='flex-center bg-gallery w-full flex-col md:flex-row mr-0 mb-10'>
         <div className="hidden sm:block flex-1 flex-col py-6 px-4 items-start justify-center">
         <h1 className='md:text-4xl uppercase text-picton-blue md:font-extrabold text-[32px] font-medium'>
-        Customized Rides 
-        <br/> Discover Our Services
+        Empowering Mobility Independence
+        <br/> Connecting Communities with Care
         </h1>
         <p className="banner__subtitle ">
-          Enabling Seamless Journeys <br/> Our Commitment to Accessible and Inclusive Paratransit Solutions  
+        we provide seamless paratransit and NEMT <br/>services that prioritize your comfort, safety, and convenience. 
         </p>
         <div className="flex gap-8 flex-row  flex-center md:mb-20 mt-10">
         <button className="py-4 px-6 bg-greyhood font-semibold rounded-full text-white uppercase flex-center">   
