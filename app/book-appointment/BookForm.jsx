@@ -132,7 +132,7 @@ const BookForm = () => {
               maxLength={150}
               placeholder='Address'
               required 
-              className='py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
+              className='py-4 px-3 w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
               autoComplete='off' 
               id='address'
               name= 'address' 
@@ -146,7 +146,7 @@ const BookForm = () => {
               maxLength={150}
               placeholder='City'
               required 
-              className='py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
+              className='py-4 px-3 w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
               autoComplete='off' 
               name='city'
               id='city' 
@@ -160,7 +160,7 @@ const BookForm = () => {
               maxLength={150}
               placeholder='ZipCode'
               required 
-              className='py-4  w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
+              className='py-4 px-3 w-full text-lg font-normal bg-gray-50 border-gray-300 md:w-3/5 shadow-sm focus:ouline-none focus:border-picton-blue focus:ring-1  focus:ring-picton-blue rounded-lg ' 
               autoComplete='off' 
               name='zipcode'
               id='zipcode' 
