@@ -9,6 +9,7 @@ import React from 'react'
 import ContactForm from '@app/contact/ContactForm';
 import ContactBlock from '@components/ContactBlock';
 import ServiceCarousel from '@components/ServiceCarousel';
+import ViewAssets from '@components/ViewAssets';
 
 const Services = () => {
   return (
@@ -19,7 +20,7 @@ const Services = () => {
       <ServicePerks/>
      <SectionHeader/>
      <ServiceCardList/>
-     <CTA/>
+     <ViewAssets/>
      <div className='w-full'>
      <h1 className="font-semibold xs:text-[48px] text-[24] md:text-[48px] text-picton-blue xs:leading-[76.8px] leading-[66.8px] w-full text-center py-6">GET IN TOUCH WITH US</h1>
      

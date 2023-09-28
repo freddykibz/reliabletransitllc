@@ -55,7 +55,8 @@ module.exports = {
         'service-bg':"url('/assets/service-bg.jpg')",
         'contact-bg':"url('/assets/contact.jpg')",
         'heroside-bg':"url('/assets/bg-heroside.png')",
-        'sect-bg': "url('/assets/wheel2.jpg')"
+        'sect-bg': "url('/assets/wheel2.jpg')",
+        'view-bg':"url('/assets/vansreliable.jpg')",
       }
     },
   },

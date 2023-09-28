@@ -416,9 +416,10 @@ video {
   height: 600px;
   background-size: cover;
 
- 
  }
-
+.view-bg{
+  @apply bg-view-bg
+}
 /* Stats Component */
 .stat{
      @apply flex flex-wrap sm:mb-20  flex-center mb-0 flex-center

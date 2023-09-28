@@ -22,7 +22,7 @@ const ServicePerks = () => {
                 width={32}
                 height={32}
             />
-           <p className="list_text ">Accessible</p>
+           <p className="list_text">Accessible</p>
            </div>
            <div className="flex gap-4 md:py-4 py-2 ">
            <Image 
@@ -31,7 +31,7 @@ const ServicePerks = () => {
                 width={32}
                 height={32}
             />
-           <p className="list_text ">Reliable</p>
+           <p className="list_text">Reliable</p>
            </div>
            <div className="flex gap-4 md:py-4 py-2 ">
            <Image 
